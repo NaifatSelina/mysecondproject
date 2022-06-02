@@ -318,3 +318,12 @@ function resetOptionBackground() {
     })
 }
 
+// resets radio buttons for next question
+function unCheckRadioButtons() {
+    const options = document.getElementsByName("option");
+    for (let i = 0; i < options.length; i++) {
+        options[i].checked = false;
+    }
+}
+
+
