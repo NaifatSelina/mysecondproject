@@ -1,73 +1,73 @@
 const questions = [
     {
-        question: "How many days makes a week ?",
-        optionA: "10 days",
-        optionB: "14 days",
-        optionC: "5 days",
-        optionD: "7 days",
+        question: "In what part of New York does Spider-man live?",
+        optionA: "Manhattan",
+        optionB: "Brooklyn",
+        optionC: "The Bronx",
+        optionD: "Queens",
         correctOption: "optionD"
     },
 
     {
-        question: "How many players are allowed on a soccer pitch ?",
-        optionA: "10 players",
-        optionB: "11 players",
-        optionC: "9 players",
-        optionD: "12 players",
+        question: "Which villain killed Uncle Ben in the first Spider-Man movie.?",
+        optionA: "Green Goblin",
+        optionB: "Sandman",
+        optionC: "Venom",
+        optionD: "The Lizard",
         correctOption: "optionB"
     },
 
     {
-        question: "Who was the first President of USA ?",
-        optionA: "Donald Trump",
-        optionB: "Barack Obama",
-        optionC: "Abraham Lincoln",
-        optionD: "George Washington",
+        question: "Who owns OSCORP Industries?",
+        optionA: "Doc Oct",
+        optionB: "Harry Osborn",
+        optionC: "Ben Parker",
+        optionD: "Norman Osborn",
         correctOption: "optionD"
     },
 
     {
-        question: "30 days has ______ ?",
-        optionA: "January",
-        optionB: "December",
-        optionC: "June",
-        optionD: "August",
+        question: "Who said the famous 'With Great Power Comes Great Responsibility' quote.?",
+        optionA: "Mary Jane Watson",
+        optionB: "May Parker",
+        optionC: "Ben Parker",
+        optionD: "Peter Parker",
         correctOption: "optionC"
     },
 
     {
-        question: "How manay hours can be found in a day ?",
-        optionA: "30 hours",
-        optionB: "38 hours",
-        optionC: "48 hours",
-        optionD: "24 hours",
+        question: "In the Spider-Man movies based in the MCU, who makes Spider-Mans suit.?",
+        optionA: "Bruce Banner",
+        optionB: "Steve Rodgers",
+        optionC: "Steven Strange",
+        optionD: "Tony Stark",
         correctOption: "optionD"
     },
 
     {
-        question: "Which is the longest river in the world ?",
-        optionA: "River Nile",
-        optionB: "Long River",
-        optionC: "River Niger",
-        optionD: "Lake Chad",
+        question: "In Spider-Man 2 how did Octavius lose his wife?",
+        optionA: "glass shards from a sun experiment",
+        optionB: "fell off a building during an attack",
+        optionC: "Green Goblin murdered her during an attack",
+        optionD: "fatal illness",
         correctOption: "optionA"
     },
 
     {
-        question: "_____ is the hottest Continent on Earth ?",
-        optionA: "Oceania",
-        optionB: "Antarctica",
-        optionC: "Africa",
-        optionD: "North America",
+        question: "who wrote the original Spider-Man comics?",
+        optionA: "Walt Disney",
+        optionB: "Jaqueline Wilson",
+        optionC: "Stan Lee",
+        optionD: "JK Rowling",
         correctOption: "optionC"
     },
 
     {
-        question: "Which country is the largest in the world ?",
-        optionA: "Russia",
-        optionB: "Canada",
-        optionC: "Africa",
-        optionD: "Egypt",
+        question: "Who played Spider-Man in the Amazing Spider-man movies?",
+        optionA: "Andrew Garfield",
+        optionB: "Tom Holland",
+        optionC: "Tobey Maguire",
+        optionD: "Chris Evans",
         correctOption: "optionA"
     },
 
@@ -226,3 +226,17 @@ const questions = [
     }
 
 ]
+
+// empty array to hold shuffled questions
+let shuffledQuestions = []
+
+// function to ensure 10 shuffled questions are picked each time
+function handleQuestions() { 
+
+    while (shuffledQuestions.length <= 9) {
+        const random = questions[Math.floor(Math.random() * questions.length)]
+        if (!shuffledQuestions.includes(random)) {
+            shuffledQuestions.push(random)
+        }
+    }
+}
