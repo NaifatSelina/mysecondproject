@@ -23,7 +23,7 @@ main {
 /* heading styling */
 h1 {
     font-family: "Jolly Lodger", sans-serif;
-    color: black;
+    color: antiquewhite;
     font-size: 300%;
     letter-spacing: 5px;
     margin-bottom: 2%;
@@ -37,4 +37,18 @@ h1 > .fa-solid {
 
 h1 > .fa-solid:hover {
     color: rgb(180, 13, 13);
+}
+/* quiz container styling */
+#quiz-container{
+    width: 80vw;
+    max-width: 80%;
+    background-color: #06011d;
+    height: 80vh;
+    box-shadow: 0 0 2px 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 30px;
+    margin: auto;
 }
