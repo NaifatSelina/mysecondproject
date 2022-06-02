@@ -262,3 +262,21 @@ function NextQuestion(index) {
     document.getElementById("option-four-label").innerHTML = currentQuestion.optionD;
 
 }
+
+// checks answer 
+function checkForAnswer() {
+    //retrieves current question
+    const currentQuestion = shuffledQuestions[indexNumber] 
+    //retrieves current answer
+    const currentQuestionAnswer = currentQuestion.correctOption
+    const options = document.getElementsByName("option"); 
+    let correctOption = null
+
+    options.forEach((option) => {
+        if (option.value === currentQuestionAnswer) {
+            //get's correct's radio input with correct answer
+            correctOption = option.labels[0].id
+        }
+    })
+
+    
