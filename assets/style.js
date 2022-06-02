@@ -309,3 +309,12 @@ function checkForAnswer() {
             }
         })
     }
+
+    //sets answers background back to default after showing the right/wrong colors
+function resetOptionBackground() {
+    const options = document.getElementsByName("option");
+    options.forEach((option) => {
+        document.getElementById(option.labels[0].id).style.backgroundColor = ""
+    })
+}
+
