@@ -240,3 +240,25 @@ function handleQuestions() {
         }
     }
 }
+// what question user is on
+let questionNumber = 1 
+// what the users score is
+let playerScore = 0  
+// how many questions have they gotten wrong
+let wrongAttempt = 0
+// display next question
+let indexNumber = 0
+
+// display the next question 
+function NextQuestion(index) {
+    handleQuestions()
+    const currentQuestion = shuffledQuestions[index]
+    document.getElementById("question-number").innerHTML = questionNumber
+    document.getElementById("player-score").innerHTML = playerScore
+    document.getElementById("displayed-question").innerHTML = currentQuestion.question;
+    document.getElementById("option-one-label").innerHTML = currentQuestion.optionA;
+    document.getElementById("option-two-label").innerHTML = currentQuestion.optionB;
+    document.getElementById("option-three-label").innerHTML = currentQuestion.optionC;
+    document.getElementById("option-four-label").innerHTML = currentQuestion.optionD;
+
+}
