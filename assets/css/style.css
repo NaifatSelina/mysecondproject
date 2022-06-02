@@ -17,5 +17,24 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(20, 20, 119, 0.815);
+    background-color: rgb(5, 5, 78);
+}
+
+/* heading styling */
+h1 {
+    font-family: "Jolly Lodger", sans-serif;
+    color: black;
+    font-size: 300%;
+    letter-spacing: 5px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+h1 > .fa-solid {
+    color: #9e9ab1;
+}
+
+h1 > .fa-solid:hover {
+    color: rgb(180, 13, 13);
 }
