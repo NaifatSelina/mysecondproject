@@ -52,3 +52,17 @@ h1 > .fa-solid:hover {
     border-radius: 30px;
     margin: auto;
 }
+
+/* score and question tally styling */
+#score-and-question{
+    width: 80%;
+    height: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#score-and-question > h1{
+    font-size: 200%;
+    font-family: Paytone One, sans-serif;
+}
