@@ -18,6 +18,21 @@
 
 <body onload="NextQuestion(0)">
     <main>
+        <!--score board-->
+        <div class="score-container" id="score-board">
+            <h1>Wow! Done already! Well let's see what your spidey skills have earned you!</h1>
+            <div class="score-details">
+                <p>Attempts : 10</p>
+                <p>Wrong Answers : <span id="wrong-answers"></span></p>
+                <p>Right Answers : <span id="right-answers"></span></p>
+                <p>Grade : <span id="grade-percentage"></span>%</p>
+                <p><span id="feedback"></span></p>
+            </div>
+            <div class="close-button-container">
+                <button onclick="closeScoreBoard()">Close</button>
+            </div>
+        </div>
+        <!--main quiz-->
         <div id="quiz-container">
             <h1>Spider-Man Super Quiz!<i class="fa-solid fa-spider"></i></h1>
             <div id="score-and-question">
