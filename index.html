@@ -30,12 +30,31 @@
             <div id="answer-options-container">
                 <div class="required-container" id="option-required">
                     <div id="required-content-container">
-                        <h1>Picking an Anser is Required for You to Move on to the Next Might Question!</h1>
+                        <h1>Picking an Anser is Required for You to Move on to the Next Mighty Question!</h1>
                         <div id="required-button-container">
                             <button onclick="closeRequiredPage()">Close</button>
                         </div>
                     </div>
                 </div>
+                <span>
+                    <input type="radio" id="option-one" name="option" class="radio" value="optionA" />
+                    <label for="option-one" class="option" id="option-one-label"></label>
+                </span>
+                <span>
+                    <input type="radio" id="option-two" name="option" class="radio" value="optionB" />
+                    <label for="option-two" class="option" id="option-two-label"></label>
+                </span>
+                <span>
+                    <input type="radio" id="option-three" name="option" class="radio" value="optionC" />
+                    <label for="option-three" class="option" id="option-three-label"></label>
+                </span>
+                <span>
+                    <input type="radio" id="option-four" name="option" class="radio" value="optionD" />
+                    <label for="option-four" class="option" id="option-four-label"></label>
+                </span>
+            </div>
+            <div class="next-button-container">
+                <button onclick="handleNextQuestion()">Next</button>
             </div>
         </div>
     </main>
