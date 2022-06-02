@@ -8,3 +8,14 @@
     border: none;
     font-family: Paytone One, sans-serif;
 }
+
+/* main element styling */
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(20, 20, 119, 0.815);
+}
