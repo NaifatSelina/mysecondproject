@@ -265,9 +265,7 @@ function NextQuestion(index) {
 
 // checks answer 
 function checkForAnswer() {
-    //retrieves current question
     const currentQuestion = shuffledQuestions[indexNumber] 
-    //retrieves current answer
     const currentQuestionAnswer = currentQuestion.correctOption
     const options = document.getElementsByName("option"); 
     let correctOption = null
