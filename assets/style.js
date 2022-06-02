@@ -326,6 +326,50 @@ function unCheckRadioButtons() {
     }
 }
 
+// end of game
+function handleEndGame() {
+    let remark = null
+    let remarkColor = null
 
+    // condition check for player remark and remark color
+    if (playerScore <= 3) {
+        remark = "Oh No! Are you a newbie? well keep practicing and I'm sure you'll do better next time."
+        remarkColor = "red"
+    }
+    else if (playerScore >= 4 && playerScore < 7) {
+        remark = "Good score but we know you know Peter better than that!, Better luck next time."
+        remarkColor = "orange"
+    }
+    else if (playerScore >= 7) {
+        remark = "Excellent! Marvel need to recruite you as a Spider-Man variant in the Multiverse at this rate!"
+        remarkColor = "green"
+    }
+    const playerGrade = (playerScore / 10) * 100
+
+    //data to display to score board
+    document.getElementById('feedback').innerHTML = remark
+    document.getElementById('feedback').style.color = remarkColor
+    document.getElementById('score-percentage').innerHTML = playerGrade
+    document.getElementById('wrong-answers').innerHTML = wrongAttempt
+    document.getElementById('right-answers').innerHTML = playerScore
+    document.getElementById('score-board').style.display = "flex"
+
+}
+
+//close score board, resets game and reshuffles questions
+function closeScoreBoard() {
+    questionNumber = 1
+    playerScore = 0
+    wrongAttempt = 0
+    indexNumber = 0
+    shuffledQuestions = []
+    NextQuestion(indexNumber)
+    document.getElementById('score-board').style.display = "none"
+}
+
+//function to close warning modal
+function closeRequiredPage() {
+    document.getElementById('option-required').style.display = "none"
+}
 
 
