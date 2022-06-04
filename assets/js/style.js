@@ -345,7 +345,7 @@ function handleEndGame() {
     let remark = null
     let remarkColor = null
 
-    // condition check for player score
+    // feedback to user based on score
     if (playerScore <= 3) {
         remark = "Are your Spidey senses having a dip today? Maybe power up on a famous Queens sub and try again!"
         remarkColor = "red"
@@ -368,3 +368,17 @@ function handleEndGame() {
     document.getElementById('score-modal').style.display = "flex"
 
 }
+
+//closes pop ups and go back to quiz
+function closeScoreModal() {
+    questionNumber = 1
+    playerScore = 0
+    wrongAttempt = 0
+    indexNumber = 0
+    shuffledQuestions = []
+    NextQuestion(indexNumber)
+    document.getElementById('score-modal').style.display = "none"
+}
+
+
+
