@@ -21,3 +21,21 @@ main{
     background-size: cover;
     background-position: center;
 }
+/* heading styling */
+h1 {
+    font-family: "Jolly Lodger", sans-serif;
+    color: white;
+    font-size: 300%;
+    letter-spacing: 5px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+h1 > .fa-solid {
+    color: #9e9ab1;
+}
+
+h1 > .fa-solid:hover {
+    color: rgb(180, 13, 13);
+}
