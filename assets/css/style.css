@@ -184,6 +184,7 @@ p {
     font-size: 1.1rem;
     text-align: center;
     padding: 3px;
+    font-family: Paytone One, sans-serif;
 }
 /* answers section styling */
 .game-options-container{
@@ -212,7 +213,7 @@ span label{
     cursor: pointer;
     transition: transform 0.3s;
     font-weight: 600;
-    color: rgb(22, 22, 22);
+    color: #d80000;
 }
 
 span label:hover{
