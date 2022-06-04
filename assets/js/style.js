@@ -305,3 +305,22 @@ function checkForAnswer() {
         }
     })
 }
+
+// function for when user clicks next question
+function handleNextQuestion() {
+    //check if player picked right or wrong option
+    checkForAnswer() 
+    unCheckRadioButtons()
+    //delays next question displaying for a second 
+    setTimeout(() => {
+        if (indexNumber <= 9) {
+//displays next question as long as user hasn't reached 10th question
+            NextQuestion(indexNumber)
+        }
+        else {
+            //ends game if user is at the 10th question
+            handleEndGame()
+        }
+        resetOptionBackground()
+    }, 1000);
+}
