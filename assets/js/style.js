@@ -340,8 +340,31 @@ function unCheckRadioButtons() {
     }
 }
 
-// function for when all questions being answered
+// function for when 10 have been answered
 function handleEndGame() {
     let remark = null
     let remarkColor = null
 
+    // condition check for player score
+    if (playerScore <= 3) {
+        remark = "Are your Spidey senses having a dip today? Maybe power up on a famous Queens sub and try again!"
+        remarkColor = "red"
+    }
+    else if (playerScore >= 4 && playerScore < 7) {
+        remark = "You're on your way to becoming a Spidey expert! Abit more practise and you should be getting that top score!"
+        remarkColor = "orange"
+    }
+    else if (playerScore >= 7) {
+        remark = "Woah! Amazing Score! Dr Strange needs to recruit you as a Peter variant in the Multiverse!"
+        remarkColor = "green"
+    }
+    const playerGrade = (playerScore / 10) * 100
+    //data to display to score board
+    document.getElementById('remarks').innerHTML = remark
+    document.getElementById('remarks').style.color = remarkColor
+    document.getElementById('grade-percentage').innerHTML = playerGrade
+    document.getElementById('wrong-answers').innerHTML = wrongAttempt
+    document.getElementById('right-answers').innerHTML = playerScore
+    document.getElementById('score-modal').style.display = "flex"
+
+}
