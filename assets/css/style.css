@@ -358,5 +358,70 @@ input[type=radio]:checked ~ .option {
 .help-text>.fa-solid {
     color: #d80000;
 }
+/* sign up form */
+#sign-up-form {
+    height: 80%;
+    width: 60%;
+    background-color: #2d2847c5;
+    border-radius: 5px;
+    border: 0.5px solid #e2f4ff54;
+    margin: auto;
+}
+
+form > p {
+ color: #e2f4ff;
+ font-size: 130%;
+ margin: auto;
+ padding-top: 2%;
+ padding-bottom: 2%;
+}
+
+.input-fields {
+    height: 30px;
+    width: 80%;
+    display: flex;
+    border-radius: 5px;
+    margin: auto;
+    border: #000000 2px solid;
+}
+
+#fav {
+    height: 90px;
+    border-radius: 5px;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    margin-bottom: 2%;
+    border: #000000 2px solid;
+}
+
+#tell-us {
+    color: white;
+    font-size: 120%;
+}
+
+label {
+    color: aliceblue;
+    font-size: 130%;
+    padding-bottom: 2%;
+}
+
+#button-sub {
+    display: flex;
+    margin: auto;
+    font-size: 150%;
+    font-family: Paytone One, sans-serif;
+    height: 37px;
+    border-radius: 5px;
+    border: 2px solid #020214;
+    background-color: #e2f4ff;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: #020214;
+    padding-left: 3%;
+}
+
 
 /* media queries */
