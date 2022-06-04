@@ -238,3 +238,9 @@ function handleQuestions() {
         }
     }
 }
+// holds question, score and attempts
+let questionNumber = 1  
+let playerScore = 0   
+let wrongAttempt = 0  
+// displaying next question
+let indexNumber = 0 
