@@ -7,3 +7,17 @@
     border: none;
     font-family: Paytone One, sans-serif;
 }
+/* main section */
+main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/compressed\ background\ spidey.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
