@@ -324,3 +324,18 @@ function handleNextQuestion() {
         resetOptionBackground()
     }, 1000);
 }
+
+//sets answer backgrounds back to defualt colours after showing the right/wrong colors
+function resetOptionBackground() {
+    const options = document.getElementsByName("option");
+    options.forEach((option) => {
+        document.getElementById(option.labels[0].id).style.backgroundColor = ""
+    })
+}
+// uncheck all radio buttons for next question
+function unCheckRadioButtons() {
+    const options = document.getElementsByName("option");
+    for (let i = 0; i < options.length; i++) {
+        options[i].checked = false;
+    }
+}
