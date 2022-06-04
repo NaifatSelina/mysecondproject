@@ -226,3 +226,15 @@ const questions = [
     }
 
 ]
+// empty array to hold shuffles questions
+let shuffledQuestions = [] 
+// shuffles and selects 10 questions each time user enters quiz
+function handleQuestions() { 
+
+    while (shuffledQuestions.length <= 9) {
+        const random = questions[Math.floor(Math.random() * questions.length)]
+        if (!shuffledQuestions.includes(random)) {
+            shuffledQuestions.push(random)
+        }
+    }
+}
