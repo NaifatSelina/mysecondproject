@@ -238,9 +238,70 @@ function handleQuestions() {
         }
     }
 }
-// holds question, score and attempts
+// variables to hold question number, score and attempts
 let questionNumber = 1  
 let playerScore = 0   
 let wrongAttempt = 0  
 // displaying next question
 let indexNumber = 0 
+
+// function for displaying next question in the array
+function NextQuestion(index) {
+    handleQuestions()
+    const currentQuestion = shuffledQuestions[index]
+    document.getElementById("question-number").innerHTML = questionNumber
+    document.getElementById("player-score").innerHTML = playerScore
+    document.getElementById("display-question").innerHTML = currentQuestion.question;
+    document.getElementById("option-one-label").innerHTML = currentQuestion.optionA;
+    document.getElementById("option-two-label").innerHTML = currentQuestion.optionB;
+    document.getElementById("option-three-label").innerHTML = currentQuestion.optionC;
+    document.getElementById("option-four-label").innerHTML = currentQuestion.optionD;
+
+}
+// check if answer is correct
+function checkForAnswer() {
+    //get current question
+    const currentQuestion = shuffledQuestions[indexNumber]  
+    //gets current question's right answer
+    const currentQuestionAnswer = currentQuestion.correctOption 
+    //gets all the radio inputs
+    const options = document.getElementsByName("option"); 
+    let correctOption = null
+
+    options.forEach((option) => {
+        if (option.value === currentQuestionAnswer) {
+            //get's correct's radio input with correct answer
+            correctOption = option.labels[0].id
+        }
+    })
+
+    //checking to make sure an option has been chosen
+    if (options[0].checked === false && options[1].checked === false && options[2].checked === false && options[3].checked == false) {
+        document.getElementById('option-modal').style.display = "flex"
+    }
+
+    //checking if checked option is same as answer
+    options.forEach((option) => {
+        if (option.checked === true && option.value === currentQuestionAnswer) {
+            document.getElementById(correctOption).style.backgroundColor = "green"
+            playerScore++ //adding to player's score
+            indexNumber++ //adding 1 to index so has to display next question..
+            //set to delay question number till when next question loads
+            setTimeout(() => {
+                questionNumber++
+            }, 1000)
+        }
+
+        else if (option.checked && option.value !== currentQuestionAnswer) {
+            const wrongLabelId = option.labels[0].id
+            document.getElementById(wrongLabelId).style.backgroundColor = "red"
+            document.getElementById(correctOption).style.backgroundColor = "green"
+            wrongAttempt++ //adds 1 to wrong attempts 
+            indexNumber++
+            //set to delay question number till when next question loads
+            setTimeout(() => {
+                questionNumber++
+            }, 1000)
+        }
+    })
+}
