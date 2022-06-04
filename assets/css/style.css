@@ -176,8 +176,9 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid darkgray;
+    border: 1px solid rgba(169, 169, 169, 0.61);
     border-radius: 25px;
+    background-color: #01010ec2;
 }
 
 .game-question-container h1{
@@ -202,6 +203,7 @@ p {
     border: 2px solid darkgray;
     border-radius: 20px;
     overflow: hidden;
+    background-color: #01010ec2;
 }
 
 span label{
@@ -213,7 +215,7 @@ span label{
     cursor: pointer;
     transition: transform 0.3s;
     font-weight: 600;
-    color: #d80000;
+    color: #dfdfdf;
 }
 
 span label:hover{
