@@ -156,4 +156,17 @@ p {
     width: fit-content;
     text-align: center;
 }
+/* score and question tally styling*/
+.game-details-container{
+    width: 80%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.game-details-container h1{
+    font-size: 1.2rem;
+}
+
 
