@@ -32,7 +32,7 @@
             <!-- creating a modal for when quiz ends -->
             <div class="modal-container" id="score-modal">
                 <div class="modal-content-container">
-                    <h1>Congratulations, Quiz Completed.</h1>
+                    <h1>You have reached the end already? Wow! well let's see what score your spidey senses earned you!</h1>
                     <div class="grade-details">
                         <p>Attempts : 10</p>
                         <p>Wrong Answers : <span id="wrong-answers"></span></p>
@@ -41,7 +41,7 @@
                         <p><span id="remarks"></span></p>
                     </div>
                     <div class="modal-button-container">
-                        <button onclick="closeScoreModal()">Continue</button>
+                        <button onclick="closeScoreModal()">Close</button>
                     </div>
                 </div>
             </div>
@@ -49,8 +49,8 @@
             <div class="game-quiz-container">
                 <h1>Spider-Man Super Quiz!<i class="fa-solid fa-spider"></i></h1>
                 <div class="game-details-container">
-                    <h1>Score : <span id="player-score"></span> / 10</h1>
-                    <h1> Question : <span id="question-number"></span> / 10</h1>
+                    <h1>Current Score : <span id="player-score"></span> / 10</h1>
+                    <h1> Current Question : <span id="question-number"></span> / 10</h1>
                 </div>
                 <div class="game-question-container">
                     <h1 id="display-question"></h1>
@@ -60,7 +60,7 @@
                         <div class="modal-content-container">
                             <h1>Please Pick An Option</h1>
                             <div class="modal-button-container">
-                                <button onclick="closeOptionModal()">Continue</button>
+                                <button onclick="closeOptionModal()">Back to Quiz</button>
                             </div>
                         </div>
                     </div>
