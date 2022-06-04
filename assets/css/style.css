@@ -168,5 +168,20 @@ p {
 .game-details-container h1{
     font-size: 1.2rem;
 }
+/* question section styling */
+.game-question-container{
+    width: 80%;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid darkgray;
+    border-radius: 25px;
+}
 
+.game-question-container h1{
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 3px;
+}
 
