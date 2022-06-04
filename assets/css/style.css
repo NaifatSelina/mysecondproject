@@ -275,8 +275,8 @@ input[type=radio]:checked ~ .option {
 }
 
 .modal-content-container{
-    height: 20rem;
-    width: 25rem;
+    height: 80%;
+    width: 70%;
     background-color: #06011d;
     display: flex;
     flex-direction: column;
@@ -286,15 +286,16 @@ input[type=radio]:checked ~ .option {
 }
 
 .modal-content-container h1{
-    font-size: 1.3rem;
+    font-size: 130%;
     height: 3rem;
+    width: 70%;
     color: white;
     text-align: center;
     font-family: Paytone One, sans-serif;
 }
 /* scores */
 .grade-details{
-    width: 15rem;
+    width: 90%;
     height: 10rem;
     display: flex;
     flex-direction: column;
@@ -306,6 +307,7 @@ input[type=radio]:checked ~ .option {
     color: white;
     text-align: center;
     font-family: Paytone One, sans-serif;
+    font-size: 110%
 }
 /* close button */
 .modal-button-container{
