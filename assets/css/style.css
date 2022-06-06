@@ -9,6 +9,7 @@
     border: none;
     font-family: Paytone One, sans-serif;
 }
+/* main element styling */
 main{
     width: 100%;
     min-height: 100vh;
@@ -119,7 +120,7 @@ p {
     color: white;
 }
 
-#button-restart {
+#button-home {
     font-size: 150%;
     font-family: Paytone One, sans-serif;
     float: right;
@@ -131,7 +132,7 @@ p {
     cursor: pointer;
 }
 
-#button-restart,
+#button-home,
 p {
     padding-right: 5px;
     padding-left: 5px;
@@ -160,7 +161,7 @@ p {
     text-align: center;
     color: white;
 }
-
+/* game details styling */
 .game-details-container{
     width: 80%;
     height: 4rem;
@@ -172,7 +173,7 @@ p {
 .game-details-container h1{
     font-size: 1.2rem;
 }
-
+/* questionn area styling */
 .game-question-container{
     width: 80%;
     height: 8rem;
@@ -349,9 +350,8 @@ input[type=radio]:checked ~ .option {
 #help-title {
     font-family: Paytone One, sans-serif;
     font-size: 160%;
-    color: #bb0000;
+    color: #020224;
     text-align: center;
-   
     margin-bottom: 10px;
 }
 
@@ -359,14 +359,13 @@ input[type=radio]:checked ~ .option {
     font-size: 100%;
     font-family: Paytone One, sans-serif;
     color: #e2f4ff;
-    padding: 10px;
+    padding: 5px;
     letter-spacing: 2px;
-    text-align: left;
-    float: left;
+    margin: auto;
 }
 
 .help-text>.fa-solid {
-    color: #d80000;
+    color: #020224;
 }
 /* sign up form */
 #sign-up-form {
