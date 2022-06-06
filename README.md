@@ -86,3 +86,17 @@ The Spider-Man Super Quiz is designed to be fun, interactive, inclusive and easy
 *final page and screenshots*
 
 [Back to Contents](<#contents>)
+<!--future features-->
+## Future Features
+<!--newsletter-->
+### Newsletter Sign Up
+- A sign-up page that will allow for users to sign up to a newsletter by email that will keep them up to date with all things Spider-Man in terms of comics and in the Marvel Cinematic Universe. The newsletter will be conducted through email and will also notify the user on new features introduced to the quiz and set reminders for them to go and beat their last score. 
+<!--rounds-->
+### Rounds
+- Different rounds of difficulty for the quiz which will allow users to progress to more difficult rounds as they answer the questions will be introduced to promote interactivity. 
+- The rounds will include a mixture of worded answers, picture answers and multiple-choice answers. 
+<!--light and dark mode-->
+### Dark and Light Mode
+- The ability for the user to choose whether they would prefer a lighter, fresher theme or a darker more comforting theme will be introduced with a light and dark mode button. This would push users to play the quiz at different times or the day and improve both accessibility, aesthetics and adaptability. 
+
+[Back to Contents](<#contents>)
