@@ -16,7 +16,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url(../images/compressed\ background\ spidey.jpg) no-repeat center center fixed;
+    background: url(../images/spider-man-far-from-home-cover-art\ \(1\).jpg) no-repeat center center fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-size: cover;
@@ -44,8 +44,8 @@ h1 > .fa-solid:hover {
 .game-quiz-container{
     width: 80vw;
     max-width: 80%;
-    background-color: #06011d;
-    height: 80vh;
+    background-color: #0f0133;
+    height: 70vh;
     box-shadow: 0 0 2px 2px;
     display: flex;
     flex-direction: column;
@@ -53,6 +53,7 @@ h1 > .fa-solid:hover {
     justify-content: space-around;
     border-radius: 30px;
     margin: auto;
+    border: 1px solid #1a0749;
 }
 #button-help {
     font-size: 150%;
@@ -195,6 +196,7 @@ span label{
     transition: transform 0.3s;
     font-weight: 600;
     color: #dfdfdf;
+    font-size: 100%;
 }
 
 span label:hover{
