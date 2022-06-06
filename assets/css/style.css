@@ -34,11 +34,11 @@ h1 {
 }
 
 h1 > .fa-solid {
-    color: #9e9ab1;
+    color: #020224
 }
 
 h1 > .fa-solid:hover {
-    color: rgb(180, 13, 13);
+    color: black;
 }
 
 .game-quiz-container{
