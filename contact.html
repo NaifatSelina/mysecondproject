@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Spider-Man super quiz for Marvel fans, ten question quiz, marvel them tune audio, final score at the end">
+    <meta name="keywords"
+        content="Spider-Man, Marvel, quiz, questions, spider, man, spiderman, movie, movies, knowledge, web, spidey">
+    <title>Spider-Man Super Quiz!</title>
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--webpage logo-->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon.ico.png">
+</head>
+
+<body>
+    <main>
+    <div class="container">
+        <!--navigation and sound buttons-->
+        <div>
+            <button type="button" id="button-audio" aria-label="audio-button"><i
+                    class="fa-solid fa-volume-high"></i></button>
+            <button type="button" id="button-help" aria-label="help-button"
+                onclick="location.href='help.html'">?</button>
+            <button type="button" id="button-home" aria-label="home-button" onclick="location.href='index.html'"><i
+                    class="fa-solid fa-house"></i></button>
+        </div>
+        <div class="game-quiz-container"> 
+    <form id="sign-up-form" action="index.html"
+        onsubmit="alert('Thankyou for signing up! We look forward to contacting you soon! (no contact will be made- purely educational)')">
+        <p>Sign Up to recieve all the latest Spidey News!</p>
+        <label for="firstname">First Name:</label>
+        <input id="firstname" name="first_name" type="text" class="input-fields" placeholder="first name" required>
+        <label for="lastname">Last Name:</label>
+        <input id="lastname" name="last_name" type="text" class="input-fields" placeholder="last name" required>
+        <label for="email">Email Address:</label>
+        <input id="email" name="email_address" type="email" class="input-fields" placeholder="email address" required>
+        <label for="favourite-villian" id="tell-us">Tell us who your favourite Spider-Man is and why!</label>
+        <input id="fav" name="favourite-spidey" list="favourite" placeholder="answer here" required>
+        <button type="submit" id="button-sub" aria-label="sub-button">Submit</button>
+    </form>
+    </div>
+    </div>
+    </div>
+</main>
+    <!--font awesome script-->
+    <script src="https://kit.fontawesome.com/bddd6cc069.js" crossorigin="anonymous"></script>
+    <!--javascript script-->
+    <script src="assets/js/style.js"></script>
+    <noscript>Sorry, your browser does not support JavaScript!</noscript>
+</body>
+
+</html>
