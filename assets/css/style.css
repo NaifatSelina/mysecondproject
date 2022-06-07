@@ -444,6 +444,7 @@ label {
     border: 2px solid #020214;
     background-image: linear-gradient(rgb(248, 35, 35), #a31212);
     cursor: pointer;
+    justify-content: center;
 }
 
 #button-sub,
@@ -610,5 +611,14 @@ p {
     }
     label {
         font-size: 80%;
+    }
+}
+/* for screens 1024px and smaller*/
+@media screen and (max-width: 1024px) {
+    .game-quiz-container {
+        height: 80vh;
+    }
+    #sign-up-form {
+        height: 80%;
     }
 }
