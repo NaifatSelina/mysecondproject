@@ -438,7 +438,8 @@ label {
     padding-left: 3%;
 }
 
-/* media queries */
+/* media queries for quiz page*/
+
 /* for screens 412px and smaller */
 @media screen and (max-width: 412px) {
     /* styling for h1 */
@@ -448,5 +449,26 @@ label {
     /* styling for answer options */
     span label {
         font-size: 90%;
+    }
+}
+
+/* for screens 315px and smaller */
+@media screen and (max-width: 315px) {
+    /* contact button styling */
+    #button-contact {
+        font-size: 130%;
+        margin: auto;
+    }
+    /* heading styling */
+    h1 {
+        font-size: 150%;
+    }
+    /* score and question tally styling */
+    .game-details-container h1 {
+        font-size: 0.8rem;
+    }
+    /* next button styling */
+    .next-button-container {
+        width: 60%;
     }
 }
