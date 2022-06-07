@@ -498,6 +498,16 @@ label {
         font-size: 65%;
     }
 }
+/* for screens 414px and smaller */
+@media screen and (max-width: 414px){
+    .game-quiz-container {
+        width: 82vw;
+        max-width: 82vw;
+    }
+    .help-text{
+        font-size: 85%;
+    }
+}
 
 /* for screens 360px and smaller */
 @media screen and (max-width: 360px) {
