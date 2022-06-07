@@ -356,7 +356,7 @@ input[type=radio]:checked ~ .option {
 }
 
 .help-text {
-    font-size: 100%;
+    font-size: 150%;
     font-family: Paytone One, sans-serif;
     color: #e2f4ff;
     padding: 5px;
@@ -493,7 +493,16 @@ label {
 }
 /* for screens 449px and smaller */
 @media screen and (max-width: 449px) {
+    /* help text styling */
     .help-text {
-        font-size: 85%;
+        font-size: 65%;
+    }
+}
+
+/* for screens 360px and smaller */
+@media screen and (max-width: 360px) {
+    /* help text styling */
+    .help-text {
+        font-size: 65%;
     }
 }
