@@ -670,3 +670,9 @@ p {
         width: 185px;
     }
 }
+/* for screens 820px and smaller */
+@media screen and (max-width: 820px) and (min-width: 800px){
+    #fav {
+        margin-bottom: 0%;
+    }
+}
