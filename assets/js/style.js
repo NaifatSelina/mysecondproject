@@ -384,18 +384,6 @@ function closeScoreModal() {
     document.getElementById('score-modal').style.display = "none"
 }
 
-
-// function to close name modal
-function closeNameModal() {
-    questionNumber = 1
-    playerScore = 0
-    wrongAttempt = 0
-    indexNumber = 0
-    shuffledQuestions = []
-    NextQuestion(indexNumber)
-    document.getElementById('name-modal').style.display = "none"
-}
-
 //function to close warning modal
 function closeOptionModal() {
     document.getElementById('option-modal').style.display = "none"
