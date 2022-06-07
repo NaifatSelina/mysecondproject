@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&family=Jolly+Lodger&family=Lato:wght@300&family=Libre+Baskerville:ital@0;1&family=Libre+Franklin&family=M+PLUS+1:wght@500&family=Merriweather+Sans:wght@600&family=Oswald:wght@300&family=Quicksand&family=Sansita+Swashed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&family=Jolly+Lodger&family=Lato:wght@300&family=Libre+Baskerville:ital@0;1&family=Libre+Franklin&family=M+PLUS+1:wght@500&family=Merriweather+Sans:wght@600&family=Oswald:wght@300&family=PT+Sans+Narrow&family=Paytone+One&family=Quicksand&family=Sansita+Swashed:wght@300&display=swap');
 
@@ -9,8 +8,9 @@
     border: none;
     font-family: Paytone One, sans-serif;
 }
+
 /* main element styling */
-main{
+main {
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -23,6 +23,7 @@ main{
     background-size: cover;
     background-position: center;
 }
+
 /* heading styling */
 h1 {
     font-family: "Jolly Lodger", sans-serif;
@@ -34,34 +35,35 @@ h1 {
     text-align: center;
 }
 
-h1 > .fa-solid {
+h1>.fa-solid {
     color: #020224
 }
 
-h1 > .fa-solid:hover {
+h1>.fa-solid:hover {
     color: black;
 }
 
 /* name pop up */
-#name-modal{
+#name-modal {
     position: fixed;
-    z-index: 5; 
+    z-index: 5;
     left: 20;
     top: 15;
-    width: 91%; 
-    height: 90%; 
-    overflow: auto; 
-    background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0,0.4); 
+    width: 91%;
+    height: 90%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
     flex-direction: column;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     -webkit-animation: fadeIn 1.2s ease-in-out;
     animation: fadeIn 1.2s ease-in-out;
     margin: auto;
 }
+
 /* container styling */
-.game-quiz-container{
+.game-quiz-container {
     width: 80vw;
     max-width: 80%;
     background-image: linear-gradient(rgb(196, 23, 23), #660808);
@@ -74,6 +76,7 @@ h1 > .fa-solid:hover {
     border-radius: 30px;
     margin: auto;
 }
+
 /* buttons styling */
 #button-help {
     font-size: 150%;
@@ -154,15 +157,17 @@ p {
     float: right;
 }
 
-#button-contact, p {
+#button-contact,
+p {
     padding-right: 5px;
     padding-left: 5px;
     width: fit-content;
     text-align: center;
     color: white;
 }
+
 /* game details styling */
-.game-details-container{
+.game-details-container {
     width: 80%;
     height: 4rem;
     display: flex;
@@ -170,11 +175,12 @@ p {
     align-items: center;
 }
 
-.game-details-container h1{
+.game-details-container h1 {
     font-size: 1.2rem;
 }
+
 /* questionn area styling */
-.game-question-container{
+.game-question-container {
     width: 80%;
     height: 8rem;
     display: flex;
@@ -185,14 +191,15 @@ p {
     background-color: #020224;
 }
 
-.game-question-container h1{
+.game-question-container h1 {
     font-size: 1.1rem;
     text-align: center;
     padding: 3px;
     font-family: Paytone One, sans-serif;
 }
+
 /* answers section styling */
-.game-options-container{
+.game-options-container {
     width: 80%;
     height: 12rem;
     display: flex;
@@ -201,7 +208,7 @@ p {
     justify-content: space-around;
 }
 
-.game-options-container span{
+.game-options-container span {
     width: 45%;
     height: 3rem;
     border: 2px solid darkgray;
@@ -210,7 +217,7 @@ p {
     background-color: #020224;
 }
 
-span label{
+span label {
     width: 100%;
     height: 100%;
     display: flex;
@@ -223,7 +230,7 @@ span label{
     font-size: 100%;
 }
 
-span label:hover{
+span label:hover {
     -ms-transform: scale(1.12);
     -webkit-transform: scale(1.12);
     transform: scale(1.12);
@@ -236,17 +243,19 @@ input[type="radio"] {
 }
 
 
-input[type=radio]:checked ~ .option {
+input[type=radio]:checked~.option {
     background: paleturquoise;
 }
+
 /* next question button styling */
-.next-button-container{
+.next-button-container {
     width: 50%;
     height: 3rem;
     display: flex;
     justify-content: center;
 }
-.next-button-container button{
+
+.next-button-container button {
     width: 8rem;
     height: 2rem;
     border-radius: 10px;
@@ -257,29 +266,31 @@ input[type=radio]:checked ~ .option {
     cursor: pointer;
     outline: none;
 }
-.next-button-container button:hover{
+
+.next-button-container button:hover {
     background-color: rgb(172, 0, 0);
 }
+
 /* score board and select pop up styling */
-.modal-container{
+.modal-container {
     display: none;
     position: fixed;
-    z-index: 1; 
+    z-index: 1;
     left: 0;
     top: 0;
-    width: 100%; 
-    height: 100%; 
-    overflow: auto; 
-    background-color: rgb(0,0,0); 
-    background-color: rgba(0, 0, 0, 0.699); 
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.699);
     flex-direction: column;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     -webkit-animation: fadeIn 1.2s ease-in-out;
     animation: fadeIn 1.2s ease-in-out;
 }
 
-.modal-content-container{
+.modal-content-container {
     height: 90%;
     width: 80%;
     background-color: #06011d;
@@ -290,7 +301,7 @@ input[type=radio]:checked ~ .option {
     border-radius: 25px;
 }
 
-.modal-content-container h1{
+.modal-content-container h1 {
     font-size: 130%;
     height: 3rem;
     width: 70%;
@@ -298,8 +309,9 @@ input[type=radio]:checked ~ .option {
     text-align: center;
     font-family: Paytone One, sans-serif;
 }
+
 /* scores */
-.grade-details{
+.grade-details {
     width: 90%;
     height: 10rem;
     display: flex;
@@ -308,14 +320,15 @@ input[type=radio]:checked ~ .option {
     justify-content: space-around;
 }
 
-.grade-details p{
+.grade-details p {
     color: white;
     text-align: center;
     font-family: Paytone One, sans-serif;
     font-size: 110%
 }
+
 /* close button */
-.modal-button-container{
+.modal-button-container {
     height: 2rem;
     width: 100%;
     display: flex;
@@ -323,7 +336,7 @@ input[type=radio]:checked ~ .option {
     justify-content: center;
 }
 
-.modal-button-container button{
+.modal-button-container button {
     width: 10rem;
     height: 2rem;
     background: none;
@@ -334,9 +347,11 @@ input[type=radio]:checked ~ .option {
     cursor: pointer;
     border-radius: 20px;
 }
-.modal-button-container button:hover{
+
+.modal-button-container button:hover {
     background-color: rgb(83, 82, 82);
 }
+
 /* help page styling */
 #help-h1 {
     font-family: "Jolly Lodger", sans-serif;
@@ -367,21 +382,23 @@ input[type=radio]:checked ~ .option {
 .help-text>.fa-solid {
     color: #020224;
 }
+
 /* sign up form */
 #sign-up-form {
-    height: 90%;
+    height: 70%;
     width: 80%;
     background-color: #020224;
     border-radius: 30px;
     margin: auto;
+    padding: 3%;
 }
 
-form > p {
- color: #e2f4ff;
- font-size: 130%;
- margin: auto;
- padding-top: 2%;
- padding-bottom: 2%;
+form>p {
+    color: #e2f4ff;
+    font-size: 130%;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .input-fields {
@@ -391,7 +408,7 @@ form > p {
     border-radius: 5px;
     margin: auto;
     padding-left: 10px;
-    
+
 }
 
 #fav {
@@ -429,7 +446,8 @@ label {
     cursor: pointer;
 }
 
-#button-sub, p {
+#button-sub,
+p {
     color: white;
 }
 
@@ -439,13 +457,29 @@ label {
 }
 
 /* media queries for quiz page*/
+/* for screens 1024px and smaller */
+@media screen and (max-width: 1040px) {
+
+    /* help text styling */
+    .help-text {
+        font-size: 100%;
+    }
+
+    /* game quiz container styling */
+    .game-quiz-container {
+        width: 85vw;
+        max-width: 80%;
+    }
+}
 
 /* for screens 412px and smaller */
 @media screen and (max-width: 412px) {
+
     /* styling for h1 */
     h1 {
         font-size: 170%;
     }
+
     /* styling for answer options */
     span label {
         font-size: 90%;
@@ -454,65 +488,127 @@ label {
 
 /* for screens 315px and smaller */
 @media screen and (max-width: 315px) {
+
     /* contact button styling */
     #button-contact {
         font-size: 130%;
         margin: auto;
     }
+
     /* heading styling */
     h1 {
         font-size: 150%;
     }
+
     /* score and question tally styling */
     .game-details-container h1 {
         font-size: 0.8rem;
     }
+
     /* next button styling */
     .next-button-container {
         width: 60%;
     }
 }
+
 /* media queries for help page */
 /* for screens 774px and smaller */
 @media screen and (max-width: 774px) {
+
     /* heading styling */
     h1 {
         font-size: 200%;
     }
 }
+
 /* for screens 629px and smaller */
-@media screen and (max-width: 629px){
+@media screen and (max-width: 629px) {
+
     /* help page title styling*/
     #help-title {
         font-size: 100%;
     }
+
     /* help page text styling */
     .help-text {
         font-size: 80%;
     }
 }
+
 /* for screens 449px and smaller */
 @media screen and (max-width: 449px) {
+
     /* help text styling */
     .help-text {
         font-size: 65%;
     }
 }
+
 /* for screens 414px and smaller */
-@media screen and (max-width: 414px){
+@media screen and (max-width: 414px) {
+
+    /* quiz container styling */
     .game-quiz-container {
         width: 82vw;
         max-width: 82vw;
     }
-    .help-text{
+
+    /* help text styling */
+    .help-text {
         font-size: 85%;
     }
 }
 
 /* for screens 360px and smaller */
 @media screen and (max-width: 360px) {
+
     /* help text styling */
     .help-text {
         font-size: 65%;
+    }
+}
+
+/* media queries for contact page */
+/* for screens 375px and smaller */
+@media screen and (max-width: 375px) {
+
+    /* tell us text styling */
+    #tell-us {
+        display: contents;
+        font-size: 90%;
+    }
+
+    /* form title styling */
+    form>p {
+        font-size: 90%;
+    }
+
+    /* labels styling */
+    label {
+        font-size: 90%;
+    }
+}
+/* for screens 280px and smaller */
+@media screen and (max-width: 280px) {
+    /* sign up form styling */
+    #sign-up-form {
+        height: 80%;
+    }
+    /* submit button styling */
+    #button-sub {
+        padding-left: 2px;
+        font-size: 100%;
+        width: 72px;
+        height: 27px;
+    }
+    /* form text and labels styling */
+    #fav {
+        height: 80px;
+    }
+    #tell-us {
+        font-size: 80%;
+    }
+    label {
+        font-size: 80%;
     }
 }
