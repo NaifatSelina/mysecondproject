@@ -480,3 +480,12 @@ label {
         font-size: 200%;
     }
 }
+/* for screens 629px and smaller */
+@media screen and (max-width: 629px){
+    #help-title {
+        font-size: 100%;
+    }
+    .help-text {
+        font-size: 80%;
+    }
+}
