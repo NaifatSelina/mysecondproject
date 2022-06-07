@@ -400,3 +400,5 @@ function closeNameModal() {
 function closeOptionModal() {
     document.getElementById('option-modal').style.display = "none"
 }
+
+

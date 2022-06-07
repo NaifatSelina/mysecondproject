@@ -439,3 +439,14 @@ label {
 }
 
 /* media queries */
+/* for screens 412px and smaller */
+@media screen and (max-width: 412px) {
+    /* styling for h1 */
+    h1 {
+        font-size: 170%;
+    }
+    /* styling for answer options */
+    span label {
+        font-size: 90%;
+    }
+}
