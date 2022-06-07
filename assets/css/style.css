@@ -472,3 +472,11 @@ label {
         width: 60%;
     }
 }
+/* media queries for help page */
+/* for screens 774px and smaller */
+@media screen and (max-width: 774px) {
+    /* heading styling */
+    h1 {
+        font-size: 200%;
+    }
+}
