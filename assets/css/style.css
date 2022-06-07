@@ -417,13 +417,14 @@ form>p {
     margin: auto;
     width: 80%;
     display: flex;
-    margin-bottom: 4%;
+    margin-bottom: 2%;
     border: #000000 2px solid;
 }
 
 #tell-us {
     color: white;
     font-size: 120%;
+    display: block;
 }
 
 label {
@@ -567,6 +568,9 @@ p {
     .help-text {
         font-size: 65%;
     }
+    #fav {
+        height: 60px;
+    }
 }
 
 /* media queries for contact page */
@@ -614,11 +618,20 @@ p {
     }
 }
 /* for screens 1024px and smaller*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px){
     .game-quiz-container {
         height: 80vh;
     }
     #sign-up-form {
         height: 80%;
+    }
+    #fav {
+        margin-bottom: 1%;
+    }
+}
+/* for screens 412px and smaller */
+@media screen and (max-width: 412px) and (min-width: 395px){
+    #sign-up-form {
+        height: 65%;
     }
 }
