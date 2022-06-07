@@ -635,3 +635,38 @@ p {
         height: 65%;
     }
 }
+
+/* for screens 912px and smaller */
+@media screen and (max-width: 912px) and (min-width: 770px) {
+    form >p {
+        font-size: 230%;
+    }
+    ::placeholder {
+        font-size: 180%;
+    }
+    label {
+        font-size: 200%;
+    }
+    .input-fields {
+        height: 50px;
+    }
+    #tell-us {
+        font-size: 200%;
+        padding-top: 15px;
+    }
+    #fav {
+        height: 160px;
+        margin-bottom: 10%;
+    }
+    #button-help, p {
+        font-size: 210%;
+    }
+    .fa-solid {
+        font-size: 160%;
+    }
+    #button-sub {
+        font-size: 210%;
+        height: 67px;
+        width: 185px;
+    }
+}
