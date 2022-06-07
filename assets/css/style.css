@@ -482,10 +482,18 @@ label {
 }
 /* for screens 629px and smaller */
 @media screen and (max-width: 629px){
+    /* help page title styling*/
     #help-title {
         font-size: 100%;
     }
+    /* help page text styling */
     .help-text {
         font-size: 80%;
+    }
+}
+/* for screens 449px and smaller */
+@media screen and (max-width: 449px) {
+    .help-text {
+        font-size: 85%;
     }
 }
