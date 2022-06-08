@@ -464,7 +464,7 @@ p {
 
     /* styling for answer options */
     span label {
-        font-size: 90%;
+        font-size: 70%;
     }
 }
 
@@ -473,7 +473,7 @@ p {
 
     /* contact button styling */
     #button-contact {
-        font-size: 130%;
+        font-size: 110%;
     }
 
     /* heading styling */
@@ -482,7 +482,7 @@ p {
     }
 
     /* score and question tally styling */
-    .game-details-container, h1 {
+    .game-details-container > h1 {
         font-size: 0.8rem;
     }
 
@@ -593,6 +593,10 @@ p {
         font-size: 80%;
     }
     label {
+        font-size: 80%;
+    }
+
+    .game-question-container > h1 {
         font-size: 80%;
     }
 }

@@ -9,7 +9,7 @@ const questions = [
     },
 
     {
-        question: "Which villain killed Uncle Ben in the first Spider-Man movie?",
+        question: "Who killed Uncle Ben in the first Spider-Man movie?",
         optionA: "Green Goblin",
         optionB: "Sandman",
         optionC: "Venom",
@@ -72,7 +72,7 @@ const questions = [
     },
 
     {
-        question: "In the caged fighting match in 'Spider-Man', who was fought?",
+        question: "In the caged fight in 'Spider-Man', who was fought?",
         optionA: "Ultron",
         optionB: "Thanos",
         optionC: "Venom",
@@ -181,7 +181,7 @@ const questions = [
     },
 
     {
-        question: "Peters aunt who always offers sage advice is named after... ?",
+        question: "Peters aunt who always offers sage advice is named after?",
         optionA: "Autumn",
         optionB: "April",
         optionC: "Summer",
@@ -208,7 +208,7 @@ const questions = [
     },
 
     {
-        question: "Peter's parents, died tragically in what way?",
+        question: "Peter's parents died in what way?",
         optionA: "Illness",
         optionB: "Explosion",
         optionC: "Plane Crash",
