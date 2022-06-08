@@ -65,10 +65,16 @@ The Spider-Man Super Quiz takes on an easy to navigate structure. The quiz has b
 
 ### Colour Scheme
 - For the quiz the colour scheme completely aligns with the colour scheme of the Spider-Man movies and comics. The quiz mainly occupies the iconic blue black and red colour trio that Marvel uses for Peter Parkers’ suit. These familiar colours create a positive and welcoming feel making users want to remain on the page and participate in the quiz. 
-- The quiz title and text occupy very light blue that can appear as white, this adds a fresh feel to the page and makes the text easy to read against the dark background blue/navy.  
+- The quiz title and text are white, this adds a fresh feel to the page and makes the text easy to read against the dark backgrounds that are red and blue/navy.  
 - I decided to go for a darker blue for the background colours to make the quiz appear more professional. Spider-Man is an interest for individuals of all ages, my desire was not to make the quiz appear ‘childish’, the Spider-Man universe based in Queens portrayed in the movies has always had a dark undertone to it through the dark rainy scenes and characters such as Venom, I used the darker colour scheme to portray this darker theme and why I believe Spider-Man caters to older audiences as well as younger audiences. This also helped increase inclusivity of the quiz. 
 
-*screenshots of colours*
+![Colours](assets/images/lighter%20red.png)
+
+![Colours](assets/images/navy.png)
+
+![Colours](assets/images/red.png)
+
+![Colours](assets/images/white.png)
 
 [Back to Contents](<#contents>)
 
