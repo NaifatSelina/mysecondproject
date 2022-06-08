@@ -389,4 +389,10 @@ function closeOptionModal() {
     document.getElementById('option-modal').style.display = "none"
 }
 
+// to play audio
+const audio = new Audio("assets/audio/superhero.ogg");
+
+document.getElementById('button-audio').onclick = function() {
+    audio.play();
+}
 
