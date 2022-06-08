@@ -46,9 +46,9 @@ const questions = [
 
     {
         question: "In Spider-Man 2 how did Octavius lose his wife?",
-        optionA: "glass shards from a sun experiment",
-        optionB: "fell off a building during an attack",
-        optionC: "Green Goblin murdered her during an attack",
+        optionA: "glass shards",
+        optionB: "falling from a building",
+        optionC: "Green Goblin",
         optionD: "fatal illness",
         correctOption: "optionA"
     },
@@ -72,156 +72,156 @@ const questions = [
     },
 
     {
-        question: "Which of these numbers is an odd number ?",
-        optionA: "Ten",
-        optionB: "Twelve",
-        optionC: "Eight",
-        optionD: "Eleven",
+        question: "In the caged fighting match in the movie 'Spider-Man', who was the man Peter Parker fought?",
+        optionA: "Ultron",
+        optionB: "Thanos",
+        optionC: "Venom",
+        optionD: "Bonesaw",
         correctOption: "optionD"
     },
 
     {
-        question: `"You Can't see me" is a popular saying by`,
-        optionA: "Eminem",
-        optionB: "Bill Gates",
-        optionC: "Chris Brown",
-        optionD: "John Cena",
+        question: `In the first "Spider-Man", which level of school was Peter Parker in when he got bitten by the genetically altered spider?`,
+        optionA: "Post-Grad",
+        optionB: "College",
+        optionC: "Middle School",
+        optionD: "High School",
         correctOption: "optionD"
     },
 
     {
-        question: "Where is the world tallest building located ?",
-        optionA: "Africa",
-        optionB: "California",
-        optionC: "Dubai",
-        optionD: "Italy",
+        question: "In Homecoming, what did Spider-Man name the artificial intelligence in his suit?",
+        optionA: "Annie",
+        optionB: "Cali",
+        optionC: "Karen",
+        optionD: "Liz",
         correctOption: "optionC"
     },
 
     {
-        question: "The longest river in the United Kingdom is ?",
-        optionA: "River Severn",
-        optionB: "River Mersey",
-        optionC: "River Trent",
-        optionD: "River Tweed",
+        question: "Where does Spider-Man shoot his webs from?",
+        optionA: "Wrists",
+        optionB: "Head",
+        optionC: "Feet",
+        optionD: "Eyes",
         correctOption: "optionA"
     },
 
 
     {
-        question: "How many permanent teeth does a dog have ?",
-        optionA: "38",
-        optionB: "42",
-        optionC: "40",
-        optionD: "36",
+        question: "Which newspaper did Peter Parker work for in the 2002 film Spider-Man? ",
+        optionA: "Daily Planet",
+        optionB: "Daily Bugle",
+        optionC: "Sunday Post",
+        optionD: "New York Daily",
         correctOption: "optionB"
     },
 
     {
-        question: "Which national team won the football World cup in 2018 ?",
-        optionA: "England",
-        optionB: "Brazil",
-        optionC: "Germany",
-        optionD: "France",
+        question: "What were the names of Peter Parker's parents?",
+        optionA: "Ben + May",
+        optionB: "Peter + Martha",
+        optionC: "Leo + Kate",
+        optionD: "Richards + Mary",
         correctOption: "optionD"
     },
 
     {
-        question: "Which US state was Donald Trump Born ?",
-        optionA: "New York",
-        optionB: "California",
-        optionC: "New Jersey",
-        optionD: "Los Angeles",
+        question: "What is Peter Parker's favourite hobby?",
+        optionA: "Photography",
+        optionB: "Acting",
+        optionC: "Soccer",
+        optionD: "Music",
         correctOption: "optionA"
     },
 
     {
-        question: "How man states does Nigeria have ?",
-        optionA: "24",
-        optionB: "30",
-        optionC: "36",
-        optionD: "37",
+        question: "What does Peter Parker's spider-sense do?",
+        optionA: "Beeps",
+        optionB: "Shivers",
+        optionC: "Tingles",
+        optionD: "Wobbles",
         correctOption: "optionC"
     },
 
     {
-        question: "____ is the capital of Nigeria ?",
-        optionA: "Abuja",
-        optionB: "Lagos",
-        optionC: "Calabar",
-        optionD: "Kano",
+        question: "With great power comes great...?",
+        optionA: "Responsibility",
+        optionB: "Fun",
+        optionC: "Sadness",
+        optionD: "Money",
         correctOption: "optionA"
     },
 
     {
-        question: "Los Angeles is also known as ?",
-        optionA: "Angels City",
-        optionB: "Shining city",
-        optionC: "City of Angels",
-        optionD: "Lost Angels",
+        question: "In 2011, Marvel introduced a comic book character who would become the new Spider-Man. What's his name?",
+        optionA: "Tony Stark",
+        optionB: "Bruce Wayne",
+        optionC: "Miles Morales",
+        optionD: "Eric Twinge",
         correctOption: "optionC"
     },
 
     {
-        question: "What is the capital of Germany ?",
-        optionA: "Georgia",
-        optionB: "Missouri",
-        optionC: "Oklahoma",
-        optionD: "Berlin",
+        question: "At which school did Peter Parker study?",
+        optionA: "Grange Hill",
+        optionB: "Hogwarts",
+        optionC: "Midland High School",
+        optionD: "Midtown High School",
         correctOption: "optionD"
     },
 
     {
-        question: "How many sides does an hexagon have ?",
-        optionA: "Six",
-        optionB: "Sevene",
-        optionC: "Four",
-        optionD: "Five",
+        question: "What actress plays Mary Jane Watson opposite Tobey Maguire in Spider-Man 1, 2 and 3?",
+        optionA: "Kirsten Dunst",
+        optionB: "Emma Stone",
+        optionC: "Zendaya",
+        optionD: "Zoe Kravitz",
         correctOption: "optionA"
     },
 
     {
-        question: "How many planets are currently in the solar system ?",
-        optionA: "Eleven",
-        optionB: "Seven",
-        optionC: "Nine",
-        optionD: "Eight",
+        question: "Peter Parker’s aunt who always offers sage advice is named after... ?",
+        optionA: "Autumn",
+        optionB: "April",
+        optionC: "Summer",
+        optionD: "May",
         correctOption: "optionD"
     },
 
     {
-        question: "Which Planet is the hottest ?",
-        optionA: "Jupitar",
-        optionB: "Mercury",
-        optionC: "Earth",
-        optionD: "Venus",
+        question: "It is common knowledge that Stan Lee created Spider-Man, but who alongside Lee created the main art for Spider-Man?",
+        optionA: "Jared Lee",
+        optionB: "Steve Ditko",
+        optionC: "Michael Janssen",
+        optionD: "Edward Halton",
         correctOption: "optionB"
     },
 
     {
-        question: "where is the smallest bone in human body located?",
-        optionA: "Toes",
-        optionB: "Ears",
-        optionC: "Fingers",
-        optionD: "Nose",
+        question: "What female character in the Spider-Verse is also bitten by a radioactive spider and becomes Spider-Woman?",
+        optionA: "MJ",
+        optionB: "Jessica Drew",
+        optionC: "Gwen Stacy",
+        optionD: "Aunt May",
         correctOption: "optionB"
     },
 
     {
-        question: "How many hearts does an Octopus have ?",
-        optionA: "One",
-        optionB: "Two",
-        optionC: "Three",
-        optionD: "Four",
+        question: " Richard and Mary Parker, Peter's parents, died tragically in what way?",
+        optionA: "Illness",
+        optionB: "Explosion",
+        optionC: "Plane Crash",
+        optionD: "Car Crash",
         correctOption: "optionC"
     },
 
     {
-        question: "How many teeth does an adult human have ?",
-        optionA: "28",
-        optionB: "30",
-        optionC: "32",
-        optionD: "36",
+        question: "In the Amazing Spider-Man (2012) Andrew Garfield’s Spider-Man battles against what reptilian supervillain?",
+        optionA: "The Alligator",
+        optionB: "The Crocodile",
+        optionC: "The Lizard",
+        optionD: "The Reptile",
         correctOption: "optionC"
     }
 
