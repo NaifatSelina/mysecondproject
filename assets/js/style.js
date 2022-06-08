@@ -9,7 +9,7 @@ const questions = [
     },
 
     {
-        question: "Which villain killed Uncle Ben in the first Spider-Man movie.?",
+        question: "Which villain killed Uncle Ben in the first Spider-Man movie?",
         optionA: "Green Goblin",
         optionB: "Sandman",
         optionC: "Venom",
@@ -27,7 +27,7 @@ const questions = [
     },
 
     {
-        question: "Who said the famous 'With Great Power Comes Great Responsibility' quote.?",
+        question: "Who said 'With Great Power Comes Great Responsibility'?",
         optionA: "Mary Jane Watson",
         optionB: "May Parker",
         optionC: "Ben Parker",
@@ -36,7 +36,7 @@ const questions = [
     },
 
     {
-        question: "In the Spider-Man movies based in the MCU, who makes Spider-Mans suit.?",
+        question: "In Spider-Man movies in the MCU, who makes Peters suit?",
         optionA: "Bruce Banner",
         optionB: "Steve Rodgers",
         optionC: "Steven Strange",
@@ -45,7 +45,7 @@ const questions = [
     },
 
     {
-        question: "In Spider-Man 2 how did Octavius lose his wife?",
+        question: "How did Octavius lose his wife?",
         optionA: "glass shards",
         optionB: "falling from a building",
         optionC: "Green Goblin",
@@ -54,7 +54,7 @@ const questions = [
     },
 
     {
-        question: "who wrote the original Spider-Man comics?",
+        question: "Who wrote the original Spider-Man comics?",
         optionA: "Walt Disney",
         optionB: "Jaqueline Wilson",
         optionC: "Stan Lee",
@@ -63,7 +63,7 @@ const questions = [
     },
 
     {
-        question: "Who played Spider-Man in the Amazing Spider-man movies?",
+        question: "Who plays Peter in the Amazing Spider-man movies?",
         optionA: "Andrew Garfield",
         optionB: "Tom Holland",
         optionC: "Tobey Maguire",
@@ -72,7 +72,7 @@ const questions = [
     },
 
     {
-        question: "In the caged fighting match in the movie 'Spider-Man', who was the man Peter Parker fought?",
+        question: "In the caged fighting match in 'Spider-Man', who was fought?",
         optionA: "Ultron",
         optionB: "Thanos",
         optionC: "Venom",
@@ -81,7 +81,7 @@ const questions = [
     },
 
     {
-        question: `In the first "Spider-Man", which level of school was Peter Parker in when he got bitten by the genetically altered spider?`,
+        question: `Which level of school was Peter in when he got bitten by the genetically altered spider?`,
         optionA: "Post-Grad",
         optionB: "College",
         optionC: "Middle School",
@@ -90,7 +90,7 @@ const questions = [
     },
 
     {
-        question: "In Homecoming, what did Spider-Man name the artificial intelligence in his suit?",
+        question: "In Homecoming, what did Peter name the artificial intelligence in his suit?",
         optionA: "Annie",
         optionB: "Cali",
         optionC: "Karen",
@@ -154,7 +154,7 @@ const questions = [
     },
 
     {
-        question: "In 2011, Marvel introduced a comic book character who would become the new Spider-Man. What's his name?",
+        question: "In 2011, Marvel introduced character to become the new Spider-Man. Who?",
         optionA: "Tony Stark",
         optionB: "Bruce Wayne",
         optionC: "Miles Morales",
@@ -172,7 +172,7 @@ const questions = [
     },
 
     {
-        question: "What actress plays Mary Jane Watson opposite Tobey Maguire in Spider-Man 1, 2 and 3?",
+        question: "What actress plays Mary Jane opposite Tobey Maguire in Spider-Man?",
         optionA: "Kirsten Dunst",
         optionB: "Emma Stone",
         optionC: "Zendaya",
@@ -181,7 +181,7 @@ const questions = [
     },
 
     {
-        question: "Peter Parker’s aunt who always offers sage advice is named after... ?",
+        question: "Peter Parkers aunt who always offers sage advice is named after... ?",
         optionA: "Autumn",
         optionB: "April",
         optionC: "Summer",
@@ -190,7 +190,7 @@ const questions = [
     },
 
     {
-        question: "It is common knowledge that Stan Lee created Spider-Man, but who alongside Lee created the main art for Spider-Man?",
+        question: "Who created the main art for Spider-Man?",
         optionA: "Jared Lee",
         optionB: "Steve Ditko",
         optionC: "Michael Janssen",
@@ -199,7 +199,7 @@ const questions = [
     },
 
     {
-        question: "What female character in the Spider-Verse is also bitten by a radioactive spider and becomes Spider-Woman?",
+        question: "What female character becomes Spider-Woman?",
         optionA: "MJ",
         optionB: "Jessica Drew",
         optionC: "Gwen Stacy",
@@ -208,7 +208,7 @@ const questions = [
     },
 
     {
-        question: " Richard and Mary Parker, Peter's parents, died tragically in what way?",
+        question: "Peter's parents, died tragically in what way?",
         optionA: "Illness",
         optionB: "Explosion",
         optionC: "Plane Crash",
@@ -217,7 +217,7 @@ const questions = [
     },
 
     {
-        question: "In the Amazing Spider-Man (2012) Andrew Garfield’s Spider-Man battles against what reptilian supervillain?",
+        question: "Andrew Garfields Spider-Man battles against what reptilian supervillain?",
         optionA: "The Alligator",
         optionB: "The Crocodile",
         optionC: "The Lizard",
