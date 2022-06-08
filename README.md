@@ -54,7 +54,7 @@ For my second project I decided to carry out the initial designs on Figma, creat
 
 <!--webpage structure-->
 ### Webpage Structure
-*placeholder text*
+The Spider-Man Super Quiz takes on an easy to navigate structure. The quiz has been made to be accessible to users of all ages and therefore I decided to make the quiz page the default page to avoid over complicating and confusing the user. The quiz container contains the Main Title, stating that the quiz that is being played- the Spider-Man Super Quiz. Directly under, the user can see the Game Details which shows the player their score and what question they are on. Directly under follows the question and a choice of four answers, once the user has selected their answer they can click the next question button as continue. Once completing the quiz, a pop up appears on the users screen displaying their score details. Outside the game container, above the container three buttons can be found, a Contact button leading to a contact form page, an Audio button to control sound, and a help button leading to an instruction page. One each page that is not the default quiz page a button with a home icon can also be found to take the user back to the quiz.
 
 <!--reasons for design-->
 ## Reasons for Design
