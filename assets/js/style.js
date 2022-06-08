@@ -298,6 +298,8 @@ function checkForAnswer() {
             const wrongLabelId = option.labels[0].id
             document.getElementById(wrongLabelId).style.backgroundColor = "red"
             document.getElementById(correctOption).style.backgroundColor = "green"
+            var audio = new Audio('assets/audio/wronganswer.ogg');
+            audio.play();
             wrongAttempt++ //adds 1 to wrong attempts 
             indexNumber++
             //set to delay question number till when next question loads
@@ -389,7 +391,7 @@ function closeOptionModal() {
     document.getElementById('option-modal').style.display = "none"
 }
 
-// to play audio
+// to play super hero audio
 const audio = new Audio("assets/audio/superhero.ogg");
 
 document.getElementById('button-audio').onclick = function() {
@@ -407,4 +409,6 @@ else
         this.play();
     }, false);
 }
+
+
 
