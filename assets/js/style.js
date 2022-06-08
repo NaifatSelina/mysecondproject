@@ -81,7 +81,7 @@ const questions = [
     },
 
     {
-        question: `Which level of school was Peter in when he got bitten by the genetically altered spider?`,
+        question: `Which level of school was Peter in when he got bitten?`,
         optionA: "Post-Grad",
         optionB: "College",
         optionC: "Middle School",
@@ -90,7 +90,7 @@ const questions = [
     },
 
     {
-        question: "In Homecoming, what did Peter name the artificial intelligence in his suit?",
+        question: "What did Peter name the artificial intelligence in his suit?",
         optionA: "Annie",
         optionB: "Cali",
         optionC: "Karen",
@@ -109,7 +109,7 @@ const questions = [
 
 
     {
-        question: "Which newspaper did Peter Parker work for in the 2002 film Spider-Man? ",
+        question: "Which newspaper did Peter Parker work for? ",
         optionA: "Daily Planet",
         optionB: "Daily Bugle",
         optionC: "Sunday Post",
@@ -154,7 +154,7 @@ const questions = [
     },
 
     {
-        question: "In 2011, Marvel introduced character to become the new Spider-Man. Who?",
+        question: "In 2011, Marvel introduced who to become the new Spider-Man?",
         optionA: "Tony Stark",
         optionB: "Bruce Wayne",
         optionC: "Miles Morales",
@@ -172,7 +172,7 @@ const questions = [
     },
 
     {
-        question: "What actress plays Mary Jane opposite Tobey Maguire in Spider-Man?",
+        question: "What actress plays MJ opposite Tobey Maguire?",
         optionA: "Kirsten Dunst",
         optionB: "Emma Stone",
         optionC: "Zendaya",
@@ -181,7 +181,7 @@ const questions = [
     },
 
     {
-        question: "Peter Parkers aunt who always offers sage advice is named after... ?",
+        question: "Peters aunt who always offers sage advice is named after... ?",
         optionA: "Autumn",
         optionB: "April",
         optionC: "Summer",
@@ -217,7 +217,7 @@ const questions = [
     },
 
     {
-        question: "Andrew Garfields Spider-Man battles against what reptilian supervillain?",
+        question: "Andrews Spider-Man battles against what reptilian supervillain?",
         optionA: "The Alligator",
         optionB: "The Crocodile",
         optionC: "The Lizard",

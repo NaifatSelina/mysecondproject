@@ -662,3 +662,9 @@ p {
         font-size: 110%;
     }
 }
+/* for screens 281px and smaller*/
+@media screen and (max-width: 281px){
+    .modal-content-container > h1 {
+        font-size: 81%;
+    }
+}
