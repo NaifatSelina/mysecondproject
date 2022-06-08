@@ -354,19 +354,19 @@ function handleEndGame() {
 
     // condition check for player remark and remark color
     if (playerScore <= 3) {
-        remark = "Bad Grades, Keep Practicing."
+        remark = "Are your Spidey senses running low today? Better luck next time!"
         remarkColor = "red"
         var audio = new Audio('assets/audio/fail.ogg');
             audio.play();
     }
     else if (playerScore >= 4 && playerScore < 7) {
-        remark = "Average Grades, You can do better."
+        remark = "Not bad! But I know you can do better!"
         remarkColor = "orange"
         var audio = new Audio('assets/audio/welldone.ogg');
             audio.play();
     }
     else if (playerScore >= 7) {
-        remark = "Excellent, Keep the good work going."
+        remark = "Excellent! Peter needs to recruit you!"
         remarkColor = "green"
         var audio = new Audio('assets/audio/welldone.ogg');
             audio.play();
