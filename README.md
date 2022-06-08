@@ -7,7 +7,7 @@ The Spider-Man Super Quiz is a fun and interactive quiz which has been independe
 You can view the live site here.- *link*
 
 <!--images of responsivity of quiz-->
-![Spider-Man Super Quiz! Responsiveness](link)
+![Spider-Man Super Quiz! Responsiveness](assets/images/responsive%20images.png)
 
 <!--contents section-->
 # Contents

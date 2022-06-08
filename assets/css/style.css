@@ -352,7 +352,7 @@ input[type=radio]:checked~.option {
 }
 
 .help-text {
-    font-size: 150%;
+    font-size: 100%;
     font-family: Paytone One, sans-serif;
     color: #e2f4ff;
     padding: 5px;
@@ -469,13 +469,12 @@ p {
     }
 }
 
-/* for screens 315px and smaller */
-@media screen and (max-width: 315px) {
+/* for screens 316px and smaller */
+@media screen and (max-width: 316px) {
 
     /* contact button styling */
     #button-contact {
         font-size: 130%;
-        margin: auto;
     }
 
     /* heading styling */
@@ -484,7 +483,7 @@ p {
     }
 
     /* score and question tally styling */
-    .game-details-container h1 {
+    .game-details-container, h1 {
         font-size: 0.8rem;
     }
 
@@ -496,7 +495,7 @@ p {
 
 /* media queries for help page */
 /* for screens 774px and smaller */
-@media screen and (max-width: 774px) {
+@media screen and (max-width: 774px) and (min-width:600px){
 
     /* heading styling */
     h1 {
