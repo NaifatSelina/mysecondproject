@@ -122,7 +122,7 @@ const questions = [
         optionA: "Ben + May",
         optionB: "Peter + Martha",
         optionC: "Leo + Kate",
-        optionD: "Richards + Mary",
+        optionD: "Richard + Mary",
         correctOption: "optionD"
     },
 

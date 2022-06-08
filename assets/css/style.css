@@ -655,3 +655,10 @@ p {
         margin-bottom: 0%;
     }
 }
+/* media queries for score modal */
+/* for screens 390px and smaller*/
+@media screen and (max-width: 391px){
+    .modal-content-container > h1 {
+        font-size: 110%;
+    }
+}
