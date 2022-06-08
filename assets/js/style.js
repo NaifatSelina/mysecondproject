@@ -288,6 +288,8 @@ function checkForAnswer() {
             document.getElementById(correctOption).style.backgroundColor = "green"
             playerScore++ //adding to player's score
             indexNumber++ //adding 1 to index so has to display next question..
+            var audio = new Audio('assets/audio/rightanswer.ogg');
+            audio.play();
             //set to delay question number till when next question loads
             setTimeout(() => {
                 questionNumber++
@@ -354,14 +356,20 @@ function handleEndGame() {
     if (playerScore <= 3) {
         remark = "Bad Grades, Keep Practicing."
         remarkColor = "red"
+        var audio = new Audio('assets/audio/fail.ogg');
+            audio.play();
     }
     else if (playerScore >= 4 && playerScore < 7) {
         remark = "Average Grades, You can do better."
         remarkColor = "orange"
+        var audio = new Audio('assets/audio/welldone.ogg');
+            audio.play();
     }
     else if (playerScore >= 7) {
         remark = "Excellent, Keep the good work going."
         remarkColor = "green"
+        var audio = new Audio('assets/audio/welldone.ogg');
+            audio.play();
     }
     const playerGrade = (playerScore / 10) * 100
 
