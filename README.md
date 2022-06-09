@@ -175,7 +175,7 @@ The code used to create the Spider-Man Super Quiz has under-gone testing and val
 ## Deployment
 *note steps and add screenshot of last step*
 
-The live link to the GitHub Repository can be found [here](https://github.com/NaifatSelina/Second-Project).
+The live link to the GitHub Repository can be found [here](https://github.com/NaifatSelina/mysecondproject).
 
 [Back to Contents](<#contents>)
 <!--credits-->
