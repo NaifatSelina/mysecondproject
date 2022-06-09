@@ -33,6 +33,7 @@ h1 {
     margin-bottom: 2%;
     margin-top: 2%;
     text-align: center;
+    padding: 5px;
 }
 
 h1>.fa-solid {
@@ -187,6 +188,7 @@ p {
     border: 1px solid rgba(169, 169, 169, 0.61);
     border-radius: 25px;
     background-color: #020224;
+    padding: 5px;
 }
 
 .game-question-container h1 {
@@ -351,15 +353,6 @@ input[type=radio]:checked~.option {
 }
 
 /* help page styling */
-#help-h1 {
-    font-family: "Jolly Lodger", sans-serif;
-    color: #e2f4ff;
-    font-size: 300%;
-    letter-spacing: 5px;
-    margin-bottom: 20px;
-    margin-top: -20px;
-}
-
 #help-title {
     font-family: Paytone One, sans-serif;
     font-size: 160%;
