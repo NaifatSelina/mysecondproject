@@ -681,7 +681,7 @@ p {
 /* for screens 390px and smaller*/
 @media screen and (max-width: 414px){
     .modal-content-container > h1 {
-        font-size: 100%;
+        font-size: 95%;
         margin-bottom: 40px;
     }
 }
