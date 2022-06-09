@@ -158,7 +158,9 @@ The code used to create the Spider-Man Super Quiz has under-gone testing and val
 ## Bugs and Fixes
 
 ### Bugs Fixed
-*note with screenshots*
+![bugs fixed](assets/images/bug.png)
+
+![bugs fixed](assets/images/bugs.png)
 
 ### Bugs Unfixed
 *placeholder*
