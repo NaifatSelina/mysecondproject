@@ -299,7 +299,7 @@ function checkForAnswer() {
             const wrongLabelId = option.labels[0].id;
             document.getElementById(wrongLabelId).style.backgroundColor = "red";
             document.getElementById(correctOption).style.backgroundColor = "green";
-            var audio = new Audio('assets/audio/wronganswer.ogg');
+            let audio = new Audio('assets/audio/wronganswer.ogg');
             audio.play();
             wrongAttempt++; //adds 1 to wrong attempts 
             indexNumber++;
@@ -361,13 +361,13 @@ function handleEndGame() {
     else if (playerScore >= 4 && playerScore < 7) {
         remark = "Not bad! But I know you can do better!";
         remarkColor = "orange";
-        var audio = new Audio('assets/audio/welldone.ogg');
+        let audio = new Audio('assets/audio/welldone.ogg');
             audio.play();
     }
     else if (playerScore >= 7) {
         remark = "Excellent! Peter needs to recruit you!";
         remarkColor = "green";
-        var audio = new Audio('assets/audio/welldone.ogg');
+        let audio = new Audio('assets/audio/welldone.ogg');
             audio.play();
     }
     const playerGrade = (playerScore / 10) * 100;
