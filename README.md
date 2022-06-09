@@ -134,19 +134,20 @@ The Spider-Man Super Quiz is designed to be fun, interactive, inclusive and easy
 The code used to create the Spider-Man Super Quiz has under-gone testing and validation through [W3C HTML Validator](https://validator.w3.org/), [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input), [A11y](https://www.a11yproject.com/checklist/), [Jshint](https://jshint.com/), Manual Testing, [Responsive Design Checker](https://responsivedesignchecker.com/) and [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/). 
 
 ### W3C HTML Validator. 
-![W3C HTML Validator](assets/.....) 
+![W3C HTML Validator](assets/images/html%20valid.png) 
 
 ### W3C CSS Validator. 
-*screenshots* 
+![W3C CSS Validator](assets/images/css%20valid.png)
 
 ### A11y. 
-*screenshots* 
+![A11Y](assets/images/A11Y..png)
 
 ### Lighthouse Testing. 
-*screenshots for mobile and desktop* 
+![Lighthouse](assets/images/LightHouse%20Testing.png)
+![Lighthouse](assets/images/better%20lighthouse%20mobile.png)
 
 ### Responsive Design Checker. 
-*screenshot* 
+![Responsive Design Checker](assets/images/Responsive%20Design%20Checker.png)
 
 ### Manual Testing. 
 *go through each feature and say how I checked* 
