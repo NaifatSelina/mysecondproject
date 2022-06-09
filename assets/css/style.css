@@ -48,7 +48,7 @@ h1>.fa-solid:hover {
     width: 80vw;
     max-width: 80%;
     background-image: linear-gradient(rgb(196, 23, 23), #660808);
-    height: 75vh;
+    height: 80vh;
     box-shadow: 0 0 2px 2px;
     display: flex;
     flex-direction: column;
@@ -271,7 +271,7 @@ input[type=radio]:checked~.option {
 }
 
 .modal-content-container {
-    height: 90%;
+    height: 80%;
     width: 80%;
     background-color: #06011d;
     display: flex;
@@ -552,7 +552,7 @@ p {
     }
 }
 
-/* media queries for contact page */
+/* media queries for contact and quiz page */
 /* for screens 375px and smaller */
 @media screen and (max-width: 375px) {
 
@@ -652,6 +652,24 @@ p {
         height: 67px;
         width: 185px;
     }
+
+    span label {
+        font-size: 120%;
+    }
+
+    .game-details-container > h1 {
+        font-size: 2rem;
+    }
+
+    .game-question-container > h1 {
+        font-size: 1.5rem;
+    }
+
+    .next-button-container button {
+        width: 12rem;
+        height: 3rem;
+        font-size: 1.3rem;
+    }
 }
 /* for screens 820px and smaller and 800px and larger*/
 @media screen and (max-width: 820px) and (min-width: 800px){
@@ -661,9 +679,10 @@ p {
 }
 /* media queries for score modal */
 /* for screens 390px and smaller*/
-@media screen and (max-width: 391px){
+@media screen and (max-width: 414px){
     .modal-content-container > h1 {
-        font-size: 110%;
+        font-size: 100%;
+        margin-bottom: 40px;
     }
 }
 /* for screens 281px and smaller*/
