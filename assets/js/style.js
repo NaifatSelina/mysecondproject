@@ -338,7 +338,7 @@ function resetOptionBackground() {
     });
 }
 
-// unchecking all radio buttons for next question(can be done with map or foreach loop also)
+// unchecking all radio buttons for next question
 function unCheckRadioButtons() {
     const options = document.getElementsByName("option");
     for (let i = 0; i < options.length; i++) {
@@ -348,7 +348,7 @@ function unCheckRadioButtons() {
 
 // function for when all questions being answered
 function handleEndGame() {
-    let remark = null
+    let remark = null;
     let remarkColor = null;
 
     // condition check for player remark and remark color
