@@ -365,7 +365,8 @@ input[type=radio]:checked~.option {
     font-size: 160%;
     color: #020224;
     text-align: center;
-    margin-bottom: 10px;
+    padding: 10px;
+    
 }
 
 .help-text {
