@@ -195,4 +195,5 @@ The live link to the GitHub Repository can be found [here](https://github.com/Na
 [Back to Contents](<#contents>)
 <!--Acknowledgements-->
 ## Acknowledgements
-*some placeholder text Naifat Selina 2022*
+ I thoroughly enjoyed creating this quiz, it pushed me out of my comfort zone and although it was very challenging I feel very accomplished and proud of my work. I am so glad I was able to create something that incorporated Spider-Man, a much loved character to individuals of all ages. A much needed thankyou to my course coach Luke for the moral support, my mentor Seun for the technical support and to my family and friends for the continuous patience and support!
+ Naifat Selina 2022.
