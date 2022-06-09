@@ -28,7 +28,7 @@ main {
 h1 {
     font-family: "Jolly Lodger", sans-serif;
     color: white;
-    font-size: 290%;
+    font-size: 260%;
     letter-spacing: 5px;
     margin-bottom: 2%;
     margin-top: 2%;
@@ -512,7 +512,7 @@ p {
 
     /* help page text styling */
     .help-text {
-        font-size: 80%;
+        font-size: 70%;
     }
 }
 
@@ -536,7 +536,22 @@ p {
 
     /* help text styling */
     .help-text {
-        font-size: 85%;
+        font-size: 75%;
+    }
+}
+
+/* for screens 280px and smaller */
+@media screen and (max-width: 280px) {
+
+    /* quiz container styling */
+
+    /* help text styling */
+    .help-text {
+        font-size: 65%;
+    }
+
+    #help-title {
+        font-size: 80%;
     }
 }
 
