@@ -190,7 +190,8 @@ The live link to the GitHub Repository can be found [here](https://github.com/Na
 * [Google Fonts]()- used to source fonts for the webpage.
 * [Font Awesome]()- used to source icons for buttons.
 * [Favicon](https://favicon.io/)- used to create the favicon.
-*add one for where you sourced the questions*
+* [Beano](https://www.beano.com/posts/the-ultimate-spider-man-quiz)- used to source quiz questions.
+* [Ultimate Quiz Questions](https://www.ultimatequizquestions.com/spiderman-quiz-questions/)- used to source quiz questions.
 
 [Back to Contents](<#contents>)
 <!--Acknowledgements-->
