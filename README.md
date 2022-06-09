@@ -26,7 +26,6 @@ You can view the live site here.- *link*
 * [Final Page](<#final-page>)
 * [Contact Page](<#contact-page>)
 * [**Future Features**](<#future-features>)
-* [Newsletter Sign Up](<#newsletter-sign-up>)
 * [Rounds](<#rounds>)
 * [Dark and Light Mode](<#dark-and-light-mode>)
 * [**Technologies Used**](<#technologies-used>)
@@ -99,10 +98,7 @@ The Spider-Man Super Quiz is designed to be fun, interactive, inclusive and easy
 
 [Back to Contents](<#contents>)
 <!--future features-->
-## Future Features
-<!--newsletter-->
-### Newsletter Sign Up
-- A sign-up page that will allow for users to sign up to a newsletter by email that will keep them up to date with all things Spider-Man in terms of comics and in the Marvel Cinematic Universe. The newsletter will be conducted through email and will also notify the user on new features introduced to the quiz and set reminders for them to go and beat their last score. 
+## Future Features 
 <!--rounds-->
 ### Rounds
 - Different rounds of difficulty for the quiz which will allow users to progress to more difficult rounds as they answer the questions will be introduced to promote interactivity. 
