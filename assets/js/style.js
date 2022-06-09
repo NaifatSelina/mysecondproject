@@ -1,5 +1,4 @@
-let questions = [
-    {
+let questions = [{
         question: "In what part of New York does Spider-man live?",
         optionA: "Manhattan",
         optionB: "Brooklyn",
@@ -230,9 +229,9 @@ let questions = [
 
 let shuffledQuestions = []; //empty array to hold shuffled selected questions out of all available questions
 
-function handleQuestions() { 
+function handleQuestions() {
     //function to shuffle and push 10 questions to shuffledQuestions array
-//app would be dealing with 10questions per session
+    //app would be dealing with 10questions per session
     while (shuffledQuestions.length <= 9) {
         const random = questions[Math.floor(Math.random() * questions.length)];
         if (!shuffledQuestions.includes(random)) {
@@ -243,7 +242,7 @@ function handleQuestions() {
 
 
 let questionNumber = 1; //holds the current question number
-let playerScore = 0;  //holds the player score
+let playerScore = 0; //holds the player score
 let wrongAttempt = 0; //amount of wrong answers picked by player
 let indexNumber = 0; //will be used in displaying next question
 
@@ -293,9 +292,7 @@ function checkForAnswer() {
             setTimeout(() => {
                 questionNumber++;
             }, 1000);
-        }
-
-        else if (option.checked && option.value !== currentQuestionAnswer) {
+        } else if (option.checked && option.value !== currentQuestionAnswer) {
             const wrongLabelId = option.labels[0].id;
             document.getElementById(wrongLabelId).style.backgroundColor = "red";
             document.getElementById(correctOption).style.backgroundColor = "green";
@@ -320,11 +317,10 @@ function handleNextQuestion() {
     //delays next question displaying for a second just for some effects so questions don't rush in on player
     setTimeout(() => {
         if (indexNumber <= 9) {
-//displays next question as long as index number isn't greater than 9, remember index number starts from 0, so index 9 is question 10
+            //displays next question as long as index number isn't greater than 9, remember index number starts from 0, so index 9 is question 10
             NextQuestion(indexNumber);
-        }
-        else {
-            handleEndGame();//ends game if index number greater than 9 meaning we're already at the 10th question
+        } else {
+            handleEndGame(); //ends game if index number greater than 9 meaning we're already at the 10th question
         }
         resetOptionBackground();
     }, 1000);
@@ -356,19 +352,17 @@ function handleEndGame() {
         remark = "Are your Spidey senses running low today? Better luck next time!";
         remarkColor = "red";
         var audio = new Audio('assets/audio/fail.ogg');
-            audio.play();
-    }
-    else if (playerScore >= 4 && playerScore < 7) {
+        audio.play();
+    } else if (playerScore >= 4 && playerScore < 7) {
         remark = "Not bad! But I know you can do better!";
         remarkColor = "orange";
         let audio = new Audio('assets/audio/welldone.ogg');
-            audio.play();
-    }
-    else if (playerScore >= 7) {
+        audio.play();
+    } else if (playerScore >= 7) {
         remark = "Excellent! Peter needs to recruit you!";
         remarkColor = "green";
         let audio = new Audio('assets/audio/welldone.ogg');
-            audio.play();
+        audio.play();
     }
     const playerGrade = (playerScore / 10) * 100;
 
@@ -401,21 +395,21 @@ function closeOptionModal() {
 // to play super hero audio
 const audio = new Audio("assets/audio/superhero.ogg");
 
-document.getElementById('button-audio').onclick = function() {
+document.getElementById('button-audio').onclick = function () {
     audio.play();
 };
 
-if (typeof audio.loop == 'boolean')
-{
+if (typeof audio.loop == 'boolean') {
     audio.loop = true;
-}
-else
-{
-    audio.addEventListener('ended', function() {
+} else {
+    audio.addEventListener('ended', function () {
         this.currentTime = 0;
         this.play();
     }, false);
 }
 
+// hide audio on button
 
-
+document.getElementById('button-audio').addEventListener("click", function () {
+    document.getElementById('button-audio').innerHTML = '<i class="fa-solid fa-volume-xmark" id="mute"></i>';
+});
