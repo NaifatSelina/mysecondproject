@@ -185,6 +185,8 @@ The live link to the GitHub Repository can be found [here](https://github.com/Na
 * [Flaticon](https://www.flaticon.com/)- used to source favicon image.
 * [Favicon](https://favicon.io/)- used to create the favicon.
 * [Compressor](https://compressor.io/)- used to compress background image used.
+* [Online Convert.Com](https://audio.online-convert.com/convert-to-ogg)- used to convert audio files to ogg format.
+* [Freesound](https://freesound.org/search/?q=oh+no)- used to source audios.
 
 ## Content
 * [Google Fonts]()- used to source fonts for the webpage.
