@@ -163,8 +163,12 @@ The code used to create the Spider-Man Super Quiz has under-gone testing and val
 
 ### Bugs Fixed
 ![bugs fixed](assets/images/bug.png)
+- I encountered a bug in my html file due to not having any text in a heading tag, to resolve this issue I added an ellipses to not only fix this bug but to create the illusion of loading when the page starts up.
 
 ![bugs fixed](assets/images/bugs.png)
+- I experienced a bug as a result of a stray end div tag, to solve this I simply removed the end tag.
+- A bug had occurred in my html file due to the for attribute of my label not matching the input id, I resolved this by changing the for attribute to match the input id.
+- I encountered a bug in my html due to a list attribute being present where not needed in an input element, I removed the attribute to solve the bug.
 
 ### Bugs Unfixed
 *placeholder*
