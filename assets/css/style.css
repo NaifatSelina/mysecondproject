@@ -367,10 +367,6 @@ input[type=radio]:checked~.option {
 #sign-up-form {
     height: 80%;
     width: 80%;
-    background-color: #020224;
-    border-radius: 30px;
-    margin: auto;
-    padding: 3%;
 }
 
 form>p {
@@ -382,29 +378,13 @@ form>p {
 }
 
 .input-fields {
-    height: 25px;
+    height: 30px;
     width: 80%;
     display: flex;
     border-radius: 5px;
     margin: auto;
     padding-left: 10px;
 
-}
-
-#fav {
-    height: 80px;
-    border-radius: 5px;
-    margin: auto;
-    width: 80%;
-    display: flex;
-    margin-bottom: 1%;
-    border: #000000 2px solid;
-}
-
-#tell-us {
-    color: white;
-    font-size: 100%;
-    display: block;
 }
 
 label {
@@ -422,7 +402,7 @@ label {
     height: 35px;
     width: 85px;
     border-radius: 5px;
-    border: 2px solid #020214;
+    border-bottom: 2px solid #020214;
     background-image: linear-gradient(rgb(248, 35, 35), #a31212);
     cursor: pointer;
     justify-content: center;
@@ -431,6 +411,7 @@ label {
 #button-sub,
 p {
     color: white;
+    margin-top: 5%;
 }
 
 ::placeholder {
