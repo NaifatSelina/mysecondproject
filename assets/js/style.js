@@ -408,8 +408,3 @@ if (typeof audio.loop == 'boolean') {
     }, false);
 }
 
-// hide audio on button
-
-document.getElementById('button-audio').addEventListener("click", function () {
-    document.getElementById('button-audio').innerHTML = '<i class="fa-solid fa-volume-xmark" id="mute"></i>';
-});
