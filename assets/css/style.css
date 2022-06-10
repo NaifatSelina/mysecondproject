@@ -480,6 +480,28 @@ footer {
         font-size: 150%;
     }
 }
+/* for screens 1100px and smaller */
+@media screen and (max-width: 1100px){
+    .game-quiz-container > h1 {
+        font-size: 360%;
+    }
+    .game-question-container > h1 {
+        font-size: 1.3rem;
+    }
+    .game-details-container > h1 {
+        font-size: 2rem;
+    }
+    span label {
+        font-size: 130%;
+    }
+    .fa-arrow-right:before {
+        font-size: 250%;
+    }
+    .next-button-container button {
+        width: 6rem;
+        height: 2.4rem;
+    }
+}
 /* for screens 412px and smaller */
 @media screen and (max-width: 412px) {
 
