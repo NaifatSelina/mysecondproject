@@ -106,11 +106,15 @@ The Spider-Man Super Quiz is designed to be fun, interactive, inclusive and easy
 - The help page starts will a title welcoming the user to the quiz, the page contains a simple, direct and comprehendable overview of the game that is accessible to a wide reading age range and english abililty range.
 - For the overview text I decided to stick with the white colour font so it is as easy to read as possible, I used the same spider icon that is used in the main title of the quiz page as bullet points not only for aesthetics but also consistency. The icons and title of the help page both share the same navy colour also for consistency and relation to the Spider-Man theme.
 - Just above the game container the user can find three buttons, one containing a home icon that will take the user back to the quiz, a button with a letter icon that will lead the user to a sign up contact page and the last button will play a marvellous and euphoric superhero themed background audio when selected.
+
 ## Final Page
 ![score](assets/images/score-quiz%20page.png)
+- Seen above is the pop up the user will see once the quiz has been completed, this pop up contains an inviting messaging and directly under shows the user their attempts, number of wrong or right answers and their grade as a percentage out of 100%.
+- Depending of the amount of correct answers, the text underneath will change, with a motivating piece of text in red for users who have achieved a score of 3 or under along with some sad audio playing in the background. If the user manages to achieve between 4 and 7 they will be met with a congratulating message in amber and an audio of cheers. Lastly, if the user achieves a score of above seven they are met with a praiseful message in green with a cheerful audio in the background too. This customisation was added so if the user did not do as well they are motivated to try again for a better score, or if they did do well they want to relive that euphoric feeling. More so, it is also to provide feedback to the user about their knowledge on Spider-Man and conclude the quiz.
 
 ## Contact Page
 ![contact page](assets/images/contact-quiz%20page.png)
+
 
 [Back to Contents](<#contents>)
 <!--future features-->
