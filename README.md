@@ -81,19 +81,25 @@ The Spider-Man Super Quiz takes on an easy to navigate structure. The quiz has b
 ## Features
 The Spider-Man Super Quiz is designed to be fun, interactive, inclusive and easy to navigate with a maintained structure and colour scheme the quiz achieves an inviting and comforting feel. The features of the quiz are used to promote the users want to complete the quiz and promotes feelings of accomplishment once this has been done. The familiar colour scheme and sound effects support these feelings to the user. 
 
-### Quiz Page
+## Quiz Page
 ![quiz home page](assets/images/main%20quiz%20page.png)
+- When entering the quiz, this is the default page users are met with. The main quiz page maintains a simplsitic but classic Spider-Man feel with the iconic red, blue and white colours present on Spider-Mans' suit. 
+- The user is displayed the game quiz container which contains the title at the very top with a spider icon the changes from navy to black when hovered over, for aesthetic reasons. Directly underneath is the game details which shows the user they are currently on a score of 0 and on question 0, as the user progresses through the quiz they will see the question number increase so they are able to track their progress through the quiz and will also hopefully see their score going up as they get an answer right- but maintain the same if the wrong answer is selected.
+- Under the game details the user can see the question displayed on a blue background iconic to Peter, the white against the blue, which is against the read provokes a happy and nostalgic feeling as these are the classic colours of Peters suit, therefore I decided to follow the same theme for the four possible answer options displayed below the question. The user will have a question presented and one of the four answers are correct- the user will have to decide which that is and select that answer.
+- Once selected, the correct answer will turn green and if it wasn't selected the incorrect answer that was selected will turn red (explained in further detail below). Next, the right facing arrow that the bottom of the game quiz container will take the user to the next question.
+- Above the container, three buttons can be found, on the far left a button with a question mark which takes the user to a help/ instruction page, on the right the user can find a button with a letter icon that will lead the user to a sign up contact page and the last button will play a marvellous and euphoric superhero themed background audio when selected. I chose to give the three buttons the same gradient background colour as the quiz container for consistency.
+- In the background, you can see Spider-Man peaking under the quiz container, in smaller images he becomes more visible however, the simplistic image was very intentional to ensure it wasn't distracting. More so, as the actual quiz content contained three already vibrant main colours, red, blue and white, I preferred a muted and professional background image. 
 ![quiz right answer](assets/images/right%20answer%20colour-quiz%20page.png)
 ![quiz wrong answer](assets/images/wrong%20answer%20colour-quiz%20page.png)
 ![pick answer pop up](assets/images/pick%20answer%20pop%20up-quiz%20page.png)
 
-### Help Page
+## Help Page
 ![help page](assets/images/help-quiz%20page.png)
 
-### Final Page
+## Final Page
 ![score](assets/images/score-quiz%20page.png)
 
-### Contact Page
+## Contact Page
 ![contact page](assets/images/contact-quiz%20page.png)
 
 [Back to Contents](<#contents>)
