@@ -241,6 +241,9 @@ The code used to create the Spider-Man Super Quiz has under-gone testing and val
 - A bug had occurred in my html file due to the for attribute of my label not matching the input id, I resolved this by changing the for attribute to match the input id.
 - I encountered a bug in my html due to a list attribute being present where not needed in an input element, I removed the attribute to solve the bug.
 
+## No Image Bugs.
+- I experienced a bug that caused my wireframe images not to show in the README.md preview file, I fixed this by changing the file path and the images displayed as expected.
+
 ### Bugs Unfixed
 - Unable to mute audio once played without restarting quiz.
 
