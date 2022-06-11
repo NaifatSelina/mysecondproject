@@ -48,9 +48,9 @@ The main aim of my second project is to provide Spider-Man fans with a fun and i
 ### Design Wireframes
 For my second project I decided to carry out the initial designs on Figma, creating wireframes for desktop and mobile sized screens. The initial wireframes were created to help visualise the structure of the quiz however the ultimate structure and colour scheme of the quiz ended up being different to increase the accessibility and interactivity of the quiz. In the final design I decided to add the score board as a pop up screen and insert contact and help pages. This was to increase interactivity. The final layout of the quiz also has a sleeker and more professional feel and finish.
 
-![Design Wireframes](../mysecondproject/assets/images/wire1.png)
-![Design Wireframes](../mysecondproject/assets/images/wire2.png)
-![Design Wireframes](../mysecondproject/assets/images/wire3.png)
+![Design Wireframes](assets/images/wire1.png)
+![Design Wireframes](assets/images/wire2.png)
+![Design Wireframes](assets/images/wire3.png)
 
 <!--webpage structure-->
 ### Webpage Structure
