@@ -18,39 +18,47 @@
 
 <body>
     <main>
-    <div class="container">
-        <!--navigation and sound buttons-->
-        <div>
-            <button type="button" onclick="alert('refresh to stop audio, quiz will refresh!')" id="button-audio" aria-label="audio-button"><i
-                    class="fa-solid fa-volume-high"></i></button>
-            <button type="button" id="button-help" aria-label="help-button"
-                onclick="location.href='help.html'">?</button>
-            <button type="button" id="button-home" aria-label="home-button" onclick="location.href='index.html'"><i
-                    class="fa-solid fa-house"></i></button>
+        <div class="container">
+            <!--navigation and sound buttons-->
+            <div>
+                <button type="button" onclick="alert('refresh to stop audio, quiz will refresh!')" id="button-audio"
+                    aria-label="audio-button"><i class="fa-solid fa-volume-high"></i></button>
+                <button type="button" id="button-help" aria-label="help-button"
+                    onclick="location.href='help.html'">?</button>
+                <button type="button" id="button-home" aria-label="home-button" onclick="location.href='index.html'"><i
+                        class="fa-solid fa-house"></i></button>
+            </div>
+            <!-- sign up form -->
+            <div class="game-quiz-container">
+                <form id="sign-up-form" action="index.html"
+                    onsubmit="alert('Thankyou for signing up! We look forward to contacting you soon! (no contact will be made- purely educational)')">
+                    <p>Sign Up to recieve all the latest Spidey News!</p>
+                    <label for="firstname">First Name:</label>
+                    <input id="firstname" name="first_name" type="text" class="input-fields" placeholder="first name"
+                        required>
+                    <label for="lastname">Last Name:</label>
+                    <input id="lastname" name="last_name" type="text" class="input-fields" placeholder="last name"
+                        required>
+                    <label for="email">Email Address:</label>
+                    <input id="email" name="email_address" type="email" class="input-fields" placeholder="email address"
+                        required>
+                    <button type="submit" id="button-sub" aria-label="sub-button">Submit</button>
+                    <!-- social link contact icons -->
+                    <div id="links">
+                        <a class="contacts" href="https://github.com/NaifatSelina" target="_blank" rel="noopener"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a class="contacts" href="https://twitter.com/?lang=en" target="_blank" rel="noopener"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <a class="contacts" href="https://www.instagram.com/?hl=en" target="_blank" rel="noopener"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </form>
+            </div>
         </div>
-        <div class="game-quiz-container"> 
-    <form id="sign-up-form" action="index.html"
-        onsubmit="alert('Thankyou for signing up! We look forward to contacting you soon! (no contact will be made- purely educational)')">
-        <p>Sign Up to recieve all the latest Spidey News!</p>
-        <label for="firstname">First Name:</label>
-        <input id="firstname" name="first_name" type="text" class="input-fields" placeholder="first name" required>
-        <label for="lastname">Last Name:</label>
-        <input id="lastname" name="last_name" type="text" class="input-fields" placeholder="last name" required>
-        <label for="email">Email Address:</label>
-        <input id="email" name="email_address" type="email" class="input-fields" placeholder="email address" required>
-        <button type="submit" id="button-sub" aria-label="sub-button">Submit</button>
-        <div id="links">
-        <a class="contacts" href="https://github.com/NaifatSelina" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
-        <a class="contacts"  href="https://twitter.com/?lang=en" target="_blank" rel="noopener"><i class="fa-brands fa-twitter"></i></a>
-        <a class="contacts" href="https://www.instagram.com/?hl=en" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
-        </div>
-    </form>
-    </div>
-    </div>
-</main>
-<!-- footer -->
-<footer>Designed and Created by Naifat Selina <i class="fa-regular fa-copyright"></i> Copyright 2022.
-</footer>
+    </main>
+    <!-- footer -->
+    <footer>Designed and Created by Naifat Selina <i class="fa-regular fa-copyright"></i> Copyright 2022.
+    </footer>
     <!--font awesome script-->
     <script src="https://kit.fontawesome.com/bddd6cc069.js" crossorigin="anonymous"></script>
     <!--javascript script-->
