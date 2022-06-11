@@ -24,6 +24,7 @@ You can view the live site here.- *link*
 * [Help Page](<#help-page>)
 * [Final Page](<#final-page>)
 * [Contact Page](<#contact-page>)
+* [Footer](<#footer>)
 * [**Future Features**](<#future-features>)
 * [Rounds](<#rounds>)
 * [Dark and Light Mode](<#dark-and-light-mode>)
@@ -118,6 +119,11 @@ The Spider-Man Super Quiz is designed to be fun, interactive, inclusive and easy
 - The sign up form is very minimalistic and quick to complete as I understand that the main reason users have come on to the page is to play the quiz therefore making the sign up form short and easy to complete heightens the chance of users completing the form. Furthermore, simplicity enhances accesibility and for a quiz the caters to such a wide range of people from ages, to background etc. it is important that the contact page is not overcomplicated.
 - At the bottom of the sign up form the user can select the three icons present, the github, twitter and instagram icons each open up on a new tab and are black to match the input field text/placeholder text and text on the submit button.
 
+## Footer.
+![footer](assets/images/footer.png)
+- The footer states the creater of the webpage and copyright information.
+- The footer is thin in height to not act as a distraction and is not overloaded with information for simplicity and a sleek professional finish.
+
 [Back to Contents](<#contents>)
 <!--future features-->
 ## Future Features 
@@ -169,7 +175,7 @@ The code used to create the Spider-Man Super Quiz has under-gone testing and val
 
 ### Responsive Design Checker. 
 ![Responsive Design Checker](assets/images/Responsive%20Design%20Checker.png)
-- Although I checked responsiveness of the webpage with ![Am I Responsive?](https://ui.dev/amiresponsive) and Lighthouse Testing, I also decided to ensure the webpage was responsive by further checking with Responsive Design Checker.
+- Although I checked responsiveness of the webpage with Am I Responsive? and Lighthouse Testing, I also decided to ensure the webpage was responsive by further checking with Responsive Design Checker.
 
 ### JsHint.
 ![JsHint](assets/images/jshint.png)
