@@ -9,7 +9,6 @@
     border: none;
     font-family: Paytone One, sans-serif;
 }
-
 /* main element styling */
 main {
     width: 100%;
@@ -24,7 +23,6 @@ main {
     background-size: cover;
     background-position: center;
 }
-
 /* heading styling */
 h1 {
     font-family: "Jolly Lodger", sans-serif;
@@ -36,16 +34,13 @@ h1 {
     text-align: center;
     padding: 5px;
 }
-
 h1>.fa-solid {
     color: #020224
 }
-
 h1>.fa-solid:hover {
     color: black;
 }
-
-/* container styling */
+/* quiz container styling */
 .game-quiz-container {
     width: 80vw;
     max-width: 80%;
@@ -72,7 +67,6 @@ h1>.fa-solid:hover {
     float: left;
     margin-left: 2%;
 }
-
 #button-help,
 p {
     width: fit-content;
@@ -82,7 +76,6 @@ p {
     text-align: center;
     color: white;
 }
-
 #button-audio {
     font-size: 150%;
     font-family: Paytone One, sans-serif;
@@ -94,7 +87,6 @@ p {
     background-image: linear-gradient(rgb(248, 35, 35), #a31212);
     cursor: pointer;
 }
-
 #button-audio,
 p {
     width: fit-content;
@@ -104,7 +96,6 @@ p {
     text-align: center;
     color: white;
 }
-
 #button-home {
     font-size: 150%;
     font-family: Paytone One, sans-serif;
@@ -116,7 +107,6 @@ p {
     background-image: linear-gradient(rgb(248, 35, 35), #a31212);
     cursor: pointer;
 }
-
 #button-home,
 p {
     padding-right: 5px;
@@ -125,7 +115,6 @@ p {
     text-align: center;
     color: white;
 }
-
 #button-contact {
     font-size: 150%;
     font-family: Paytone One, sans-serif;
@@ -138,7 +127,6 @@ p {
     cursor: pointer;
     float: right;
 }
-
 #button-contact,
 p {
     padding-right: 5px;
@@ -147,25 +135,22 @@ p {
     text-align: center;
     color: white;
 }
-/* contact links styling */
+/* icon contact links styling */
 .contacts {
     display: contents;
     font-size: 1.5rem;
     color: black;
     margin: auto;
 }
-
 #links {
     border-top: 2px solid black;
     padding: 10px;
     margin-top: 5%;
     text-align-last: justify;
 }
-
 .fa-brands {
     margin-top: 5%;
 }
-
 /* game details styling */
 .game-details-container {
     width: 80%;
@@ -174,7 +159,6 @@ p {
     justify-content: space-around;
     align-items: center;
 }
-
 .game-details-container h1 {
     font-size: 1.2rem;
     font-family: Paytone One, sans-serif;
@@ -191,14 +175,12 @@ p {
     background-color: #020224;
     padding: 5px;
 }
-
-.game-question-container h1 {
+.game-question-container  h1 {
     font-size: 1.0rem;
     text-align: center;
     padding: 3px;
     font-family: Paytone One, sans-serif;
 }
-
 /* answers section styling */
 .game-options-container {
     width: 80%;
@@ -208,7 +190,6 @@ p {
     align-items: center;
     justify-content: space-around;
 }
-
 .game-options-container span {
     width: 45%;
     height: 3rem;
@@ -217,7 +198,6 @@ p {
     overflow: hidden;
     background-color: #020224;
 }
-
 span label {
     width: 100%;
     height: 100%;
@@ -230,24 +210,19 @@ span label {
     color: #dfdfdf;
     font-size: 100%;
 }
-
 span label:hover {
     -ms-transform: scale(1.12);
     -webkit-transform: scale(1.12);
     transform: scale(1.12);
     color: white;
 }
-
 input[type="radio"] {
     position: relative;
     display: none;
 }
-
-
 input[type=radio]:checked~.option {
     background: paleturquoise;
 }
-
 /* next question button styling */
 .next-button-container {
     width: 50%;
@@ -255,7 +230,6 @@ input[type=radio]:checked~.option {
     display: flex;
     justify-content: center;
 }
-
 .next-button-container button {
     width: 3rem;
     height: 1.4rem;
@@ -267,11 +241,9 @@ input[type=radio]:checked~.option {
     cursor: pointer;
     outline: none;
 }
-
 .next-button-container button:hover {
     background-color: rgb(172, 0, 0);
 }
-
 /* score board and select pop up styling */
 .modal-container {
     display: none;
@@ -290,7 +262,6 @@ input[type=radio]:checked~.option {
     -webkit-animation: fadeIn 1.2s ease-in-out;
     animation: fadeIn 1.2s ease-in-out;
 }
-
 .modal-content-container {
     height: 80%;
     width: 80%;
@@ -301,7 +272,6 @@ input[type=radio]:checked~.option {
     justify-content: space-around;
     border-radius: 25px;
 }
-
 .modal-content-container h1 {
     font-size: 100%;
     height: 3rem;
@@ -310,8 +280,7 @@ input[type=radio]:checked~.option {
     text-align: center;
     font-family: Paytone One, sans-serif;
 }
-
-/* scores */
+/* scores styling*/
 .grade-details {
     width: 90%;
     height: 10rem;
@@ -320,15 +289,13 @@ input[type=radio]:checked~.option {
     align-items: center;
     justify-content: space-around;
 }
-
 .grade-details p {
     color: white;
     text-align: center;
     font-family: Paytone One, sans-serif;
     font-size: 110%
 }
-
-/* close button */
+/* close button on pop ups styling*/
 .modal-button-container {
     height: 2rem;
     width: 100%;
@@ -336,7 +303,6 @@ input[type=radio]:checked~.option {
     align-items: center;
     justify-content: center;
 }
-
 .modal-button-container button {
     width: 10rem;
     height: 2rem;
@@ -348,11 +314,9 @@ input[type=radio]:checked~.option {
     cursor: pointer;
     border-radius: 20px;
 }
-
 .modal-button-container button:hover {
     background-color: rgb(83, 82, 82);
 }
-
 /* help page styling */
 #help-title {
     font-family: Paytone One, sans-serif;
@@ -362,7 +326,6 @@ input[type=radio]:checked~.option {
     padding: 10px;
     
 }
-
 .help-text {
     font-size: 100%;
     font-family: Paytone One, sans-serif;
@@ -371,17 +334,14 @@ input[type=radio]:checked~.option {
     letter-spacing: 2px;
     margin: auto;
 }
-
 .help-text>.fa-solid {
     color: #020224;
 }
-
 /* sign up form */
 #sign-up-form {
     height: 80%;
     width: 80%;
 }
-
 form>p {
     color: #e2f4ff;
     font-size: 130%;
@@ -389,7 +349,6 @@ form>p {
     padding-top: 2%;
     padding-bottom: 2%;
 }
-
 .input-fields {
     height: 30px;
     width: 80%;
@@ -399,14 +358,12 @@ form>p {
     padding-left: 10px;
 
 }
-
 label {
     color: aliceblue;
     font-size: 90%;
     padding-bottom: 20px;
     padding-left: 2%;
 }
-
 #button-sub {
     display: flex;
     margin: auto;
@@ -420,14 +377,12 @@ label {
     cursor: pointer;
     justify-content: center;
 }
-
 #button-sub >
 p {
     color: white;
     margin-top: 5%;
     margin-bottom: 5%;
 }
-
 ::placeholder {
     color: #020214;
     padding-left: 3%;
@@ -445,7 +400,6 @@ footer {
     letter-spacing: 1px;
     border-top: 2px solid black;
 }
-
 /* media queries for quiz page*/
 /* for screens 1024px and smaller */
 @media screen and (max-width: 1040px) {
