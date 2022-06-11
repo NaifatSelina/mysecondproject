@@ -92,13 +92,20 @@ The Spider-Man Super Quiz is designed to be fun, interactive, inclusive and easy
 
 ![quiz right answer](assets/images/right%20answer%20colour-quiz%20page.png)
 - As seen above, when the user selects an answer and it is the correct answer, when the user clicks on the next button the answer selected will turn green and the user will be met with a chime sound to also indicate a correct answer, not only was this done for accessibility reasons but also to provoke a positive and accomplished feeling within the user. The score will also update to be +1 (as seen below), as will the question number update unless the user has reached th end of the quiz.
+
 ![quiz wrong answer](assets/images/wrong%20answer%20colour-quiz%20page.png)
 - As seen above, when the user selects an answer and it is the wrong answer, when the user clicks on the next button the answer selected will turn red and the correct answer will be revealed by turning green. The user will be met with a incorrect laser sound to also indicate that they have selected the incorrect answer, not only was this done for accessibility reasons but also to provoke a slightly disappointed feeling within the user so they are more motivated to try again and do better. The score will not update in this question as they have not earned a point but the question number will update unless the user has reached th end of the quiz.
+
 ![pick answer pop up](assets/images/pick%20answer%20pop%20up-quiz%20page.png)
+- As seen above, if the user attempts to select the next question button without selecting an answer this prompt will appear to alert the user that this must be done to continue.
+- This is also beneficial for when users accidently select the next button unintentionally, it will not force them to skip the question but they can merely close the pop up and continue with the quiz.
+- When the Back to Quiz button at the bottom of the pop up is selected the user will be taken back to the question they were on.
 
 ## Help Page
 ![help page](assets/images/help-quiz%20page.png)
-
+- The help page starts will a title welcoming the user to the quiz, the page contains a simple, direct and comprehendable overview of the game that is accessible to a wide reading age range and english abililty range.
+- For the overview text I decided to stick with the white colour font so it is as easy to read as possible, I used the same spider icon that is used in the main title of the quiz page as bullet points not only for aesthetics but also consistency. The icons and title of the help page both share the same navy colour also for consistency and relation to the Spider-Man theme.
+- Just above the game container the user can find three buttons, one containing a home icon that will take the user back to the quiz, a button with a letter icon that will lead the user to a sign up contact page and the last button will play a marvellous and euphoric superhero themed background audio when selected.
 ## Final Page
 ![score](assets/images/score-quiz%20page.png)
 
