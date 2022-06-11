@@ -401,14 +401,13 @@ footer {
     border-top: 2px solid black;
 }
 /* media queries for quiz page*/
-/* for screens 1024px and smaller */
-@media screen and (max-width: 1040px) {
 
+/* for screens 1040px and smaller */
+@media screen and (max-width: 1040px) {
     /* help text styling */
     .help-text {
         font-size: 100%;
     }
-
     /* game quiz container styling */
     .game-quiz-container {
         width: 85vw;
@@ -417,6 +416,7 @@ footer {
 }
 /* for screens 2000px and smaller and 1250px and larger */
 @media screen and (max-width: 2000px) and (min-width:1250px){
+    /* quiz container styling */
     .game-quiz-container > h1 {
         font-size: 500%;
         margin-bottom: 0%;
@@ -434,8 +434,9 @@ footer {
         font-size: 150%;
     }
 }
-/* for screens 1100px and smaller */
+/* for screens 1100px and smaller and 913px and larger*/
 @media screen and (max-width: 1100px) and (min-width:913px){
+    /* game quiz ocntainer styling */
     .game-quiz-container > h1 {
         font-size: 340%;
     }
@@ -456,39 +457,31 @@ footer {
         height: 1.6rem;
     }
 }
-
 /* for screens 412px and smaller */
 @media screen and (max-width: 412px) {
-
     /* styling for h1 */
     h1 {
         font-size: 170%;
     }
-
     /* styling for answer options */
     span label {
         font-size: 70%;
     }
 }
-
 /* for screens 316px and smaller */
 @media screen and (max-width: 316px) {
-
     /* contact button styling */
     #button-contact {
         font-size: 110%;
     }
-
     /* heading styling */
     h1 {
         font-size: 150%;
     }
-
     /* score and question tally styling */
     .game-details-container > h1 {
         font-size: 0.7rem;
     }
-
     /* next button styling */
     .next-button-container {
         width: 60%;
@@ -496,71 +489,55 @@ footer {
 }
 
 /* media queries for help page */
-/* for screens 774px and smaller */
+/* for screens 774px and smaller and 600px and larger*/
 @media screen and (max-width: 774px) and (min-width:600px){
-
     /* heading styling */
     h1 {
         font-size: 200%;
     }
 }
-
 /* for screens 629px and smaller */
 @media screen and (max-width: 629px) {
-
     /* help page title styling*/
     #help-title {
         font-size: 100%;
     }
-
     /* help page text styling */
     .help-text {
         font-size: 70%;
     }
 }
-
 /* for screens 449px and smaller */
 @media screen and (max-width: 449px) {
-
     /* help text styling */
     .help-text {
         font-size: 65%;
     }
 }
-
 /* for screens 414px and smaller */
 @media screen and (max-width: 414px) {
-
     /* quiz container styling */
     .game-quiz-container {
         width: 82vw;
         max-width: 82vw;
     }
-
     /* help text styling */
     .help-text {
         font-size: 75%;
     }
 }
-
 /* for screens 280px and smaller */
 @media screen and (max-width: 280px) {
-
-    /* quiz container styling */
-
     /* help text styling */
     .help-text {
         font-size: 65%;
     }
-
     #help-title {
         font-size: 80%;
     }
 }
-
 /* for screens 360px and smaller */
 @media screen and (max-width: 360px) {
-
     /* help text styling */
     .help-text {
         font-size: 65%;
@@ -573,18 +550,15 @@ footer {
 /* media queries for contact and quiz page */
 /* for screens 375px and smaller */
 @media screen and (max-width: 375px) {
-
     /* tell us text styling */
     #tell-us {
         display: contents;
         font-size: 90%;
     }
-
     /* form title styling */
     form>p {
         font-size: 90%;
     }
-
     /* labels styling */
     label {
         font-size: 90%;
@@ -613,7 +587,6 @@ footer {
     label {
         font-size: 80%;
     }
-
     .game-question-container > h1 {
         font-size: 80%;
     }
@@ -633,7 +606,6 @@ footer {
         height: 65%;
     }
 }
-
 /* for screens 912px and smaller and 770px and larger */
 @media screen and (max-width: 912px) and (min-width: 900px) {
     form >p {
@@ -667,19 +639,15 @@ footer {
         height: 67px;
         width: 185px;
     }
-
     span label {
         font-size: 120%;
     }
-
     .game-details-container > h1 {
         font-size: 1.8rem;
     }
-
     .game-question-container > h1 {
         font-size: 1.5rem;
     }
-
     .next-button-container button {
         width: 12rem;
         height: 2.8rem;
@@ -712,6 +680,7 @@ footer {
         font-size: 130%;
     }
 }
+
 /* media queries for footer */
 /* for screens 412px and smaller*/
 @media screen and (max-width: 412px){
