@@ -421,7 +421,7 @@ label {
     justify-content: center;
 }
 
-#button-sub,
+#button-sub >
 p {
     color: white;
     margin-top: 5%;

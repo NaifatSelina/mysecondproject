@@ -22,7 +22,6 @@ You can view the live site here.- *link*
 * [**Features**](<#features>)
 * [Quiz Page](<#quiz-page>)
 * [Help Page](<#help-page>)
-* [Questions Page](<#questions-page>)
 * [Final Page](<#final-page>)
 * [Contact Page](<#contact-page>)
 * [**Future Features**](<#future-features>)
@@ -83,18 +82,19 @@ The Spider-Man Super Quiz takes on an easy to navigate structure. The quiz has b
 The Spider-Man Super Quiz is designed to be fun, interactive, inclusive and easy to navigate with a maintained structure and colour scheme the quiz achieves an inviting and comforting feel. The features of the quiz are used to promote the users want to complete the quiz and promotes feelings of accomplishment once this has been done. The familiar colour scheme and sound effects support these feelings to the user. 
 
 ### Quiz Page
-*home page and screenshots*
+![quiz home page](assets/images/main%20quiz%20page.png)
+![quiz right answer](assets/images/right%20answer%20colour-quiz%20page.png)
+![quiz wrong answer](assets/images/wrong%20answer%20colour-quiz%20page.png)
+![pick answer pop up](assets/images/pick%20answer%20pop%20up-quiz%20page.png)
 
 ### Help Page
-*help page and screenshots*
-
-### Questions Pages
-* question pages and screenshots*
+![help page](assets/images/help-quiz%20page.png)
 
 ### Final Page
-*final page and screenshots*
+![score](assets/images/score-quiz%20page.png)
 
 ### Contact Page
+![contact page](assets/images/contact-quiz%20page.png)
 
 [Back to Contents](<#contents>)
 <!--future features-->
