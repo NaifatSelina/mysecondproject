@@ -3,7 +3,7 @@
 <!--summary paragraph-->
 The Spider-Man Super Quiz is a fun and interactive quiz which has been independently built by myself. The aim of the quiz is for Marvel fans, in particular fans of Spider-Man, to test their knowledge on their favourite superhero- Spider-Man. The fun but professional and inviting structure of the quiz means it is perfect for Spider-Man fans of all ages and knowledge to get started on seeing how well their Spider-an knowledge really is.
 <!--link to live site-->
-You can view the live site here.- *link*
+You can view the live site-[here](https://naifatselina.github.io/mysecondproject/).
 <!--images of responsivity of quiz-->
 ![Spider-Man Super Quiz! Responsiveness](assets/images/new%20responsive.png)
 
@@ -245,11 +245,12 @@ The code used to create the Spider-Man Super Quiz has under-gone testing and val
 
 <!--deployment-->
 ## Deployment
-- Navigate to GitHub and located the respository named mysecondproject.
+- Navigate to GitHub and located the respository named mysecondproject, select Settings.
 - On the left hand side select the Pages tab.
 - Select Source, the branch will be then changed to main- save these changes.
 - The page will automatically refresh.
 - Your site has now been deployed.
+![Deployed](assets/images/published.png)
 
 The live link to the GitHub Repository can be found [here](https://github.com/NaifatSelina/mysecondproject).
 
