@@ -387,6 +387,9 @@ p {
     color: #020214;
     padding-left: 3%;
 }
+input#email.input-fields {
+    margin-bottom: 4%;
+}
 /* footer styling */
 footer {
     height: 20px;
@@ -430,7 +433,7 @@ footer {
         height: 11rem;
     }
     .game-question-container > h1 {
-        font-size: 2.0rem;
+        font-size: 1.8rem;
     }
     span label {
         font-size: 150%;
@@ -625,9 +628,6 @@ footer {
     ::placeholder {
         font-size: 180%;
     }
-    label {
-        font-size: 200%;
-    }
     .input-fields {
         height: 50px;
     }
@@ -646,8 +646,8 @@ footer {
         font-size: 160%;
     }
     #button-sub {
-        font-size: 210%;
-        height: 67px;
+        font-size: 180%;
+        height: 50px;
         width: 185px;
     }
     span label {
@@ -669,6 +669,12 @@ footer {
 @media screen and (max-width: 820px) and (min-width: 800px){
     #fav {
         margin-bottom: 0%;
+    }
+}
+/* for screens 2000px and smaller and 700px and larger */
+@media screen and (max-width:2000px) and (min-width:1150px){
+    .input-fields {
+        height: 60px;
     }
 }
 /* media queries for score modal */
