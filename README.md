@@ -175,7 +175,51 @@ The code used to create the Spider-Man Super Quiz has under-gone testing and val
 ![JsHint](assets/images/jshint.png)
 
 ### Manual Testing. 
-*go through each feature and say how I checked* 
+#### quiz page.
+- Ensure entire page is responsive by adding media query styling.
+- Ensure colours contrast well and are consistent.
+- Ensure question and answer containers do not overlap.
+- Ensure all content is within container.
+- Ensure help and contact button are connected with the correct html file.
+- Ensure everything in the quiz container is centered.
+- Ensure superhero audio starts playing when audio button is selected.
+- Ensure correct answer turns green if selected with corresponding audios.
+- Ensure incorrect answer turns red and correct answer turns green if incorrect answer is selected with corresponding audios.
+- Ensure when next button is selected it reveals the correct answer, the right audio is triggered and the next question is presented.
+- Ensure the score increases by one for ever right answer selected.
+- Ensure the question count increases by one as the user progresses through the quiz.
+- Ensure background image covers the background and is fixed.
+- Ensure footer remains at the bottom of the screen.
+
+#### score board.
+- Ensure none of the text is overlapping on any screen size.
+- Ensure the correct number of right and wrong answers are presented each time.
+- Ensure the correct grade is presented.
+- Ensure the corresponding final message in the correct colour is shown each time.
+- Ensure the correct corresponding audio plays depending on the grade achieved.
+- Ensure container is centered and contents are centered.
+- Ensure user is taken back to the beginning of the quiz when modal is closed.
+
+#### pick an answer pop up.
+- Ensure it always appears when the user has no clicked an answer option.
+- Ensure container is centered and contents are centered.
+- Ensure when user closes pop up it does not restart the quiz.
+
+#### help page.
+- Ensure the text never overlaps.
+- Ensure page is responsive.
+- Ensure all buttons above the main container are functioning as expected.
+
+#### contact page.
+- Ensure the form displays an alert on submission.
+- Ensure user cannot submit form without inputting all the data required.
+- Ensure the entire contact page is responsive and never overlaps.
+- Ensure contact icon links open in a new tab and to the correct links.
+- Ensure all buttons on page are working as they are expected to.
+
+#### footer.
+- Ensure it is displayed at the bottom of the page.
+- Ensure it is not distracting.
 
 [Back to Contents](<#contents>)
 
@@ -224,4 +268,5 @@ The live link to the GitHub Repository can be found [here](https://github.com/Na
 <!--Acknowledgements-->
 ## Acknowledgements
  I thoroughly enjoyed creating this quiz, it pushed me out of my comfort zone and although it was very challenging I feel very accomplished and proud of my work. I am so glad I was able to create something that incorporated Spider-Man, a much loved character to individuals of all ages. A much needed thankyou to my course coach Luke for the moral support, my mentor Seun for the technical support and to my family and friends for the continuous patience and support!
+
  Naifat Selina 2022.
