@@ -400,13 +400,15 @@ footer {
     letter-spacing: 1px;
     border-top: 2px solid black;
 }
-/* media queries for quiz page*/
-
-/* for screens 1040px and smaller */
-@media screen and (max-width: 1040px) {
+/* media queries for quiz and help page*/
+/* for screens 1040px and smaller and 920px and larger */
+@media screen and (max-width: 1040px) and (min-width:920px) {
     /* help text styling */
     .help-text {
-        font-size: 100%;
+        font-size: 120%;
+    }
+    #help-title {
+        font-size: 240%;
     }
     /* game quiz container styling */
     .game-quiz-container {
@@ -414,8 +416,8 @@ footer {
         max-width: 80%;
     }
 }
-/* for screens 2000px and smaller and 1250px and larger */
-@media screen and (max-width: 2000px) and (min-width:1250px){
+/* for screens 2000px and smaller and 750px and larger */
+@media screen and (max-width: 2000px) and (min-width:750px){
     /* quiz container styling */
     .game-quiz-container > h1 {
         font-size: 500%;
@@ -489,6 +491,15 @@ footer {
 }
 
 /* media queries for help page */
+/* for screens 2000px and smaller and 1100px and larger */
+@media screen and (max-width:2000px) and (min-width:1100px){
+    .help-text {
+        font-size: 170%;
+    }
+    #help-title {
+        font-size: 250%;
+    }
+}
 /* for screens 774px and smaller and 600px and larger*/
 @media screen and (max-width: 774px) and (min-width:600px){
     /* heading styling */
@@ -500,11 +511,11 @@ footer {
 @media screen and (max-width: 629px) {
     /* help page title styling*/
     #help-title {
-        font-size: 100%;
+        font-size: 130%;
     }
     /* help page text styling */
     .help-text {
-        font-size: 70%;
+        font-size: 87%;
     }
 }
 /* for screens 449px and smaller */
@@ -540,7 +551,7 @@ footer {
 @media screen and (max-width: 360px) {
     /* help text styling */
     .help-text {
-        font-size: 65%;
+        font-size: 61%;
     }
     #fav {
         height: 60px;
