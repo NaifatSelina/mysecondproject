@@ -236,7 +236,7 @@ The code used to create the Spider-Man Super Quiz has under-gone testing and val
 - I encountered a bug in my html due to a list attribute being present where not needed in an input element, I removed the attribute to solve the bug.
 
 ### Bugs Unfixed
-*placeholder*
+- Unable to mute audio once played without restarting quiz.
 
 [Back to Contents](<#contents>)
 
