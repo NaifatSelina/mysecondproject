@@ -242,7 +242,11 @@ The code used to create the Spider-Man Super Quiz has under-gone testing and val
 
 <!--deployment-->
 ## Deployment
-*note steps and add screenshot of last step*
+- Navigate to GitHub and located the respository named mysecondproject.
+- On the left hand side select the Pages tab.
+- Select Source, the branch will be then changed to main- save these changes.
+- The page will automatically refresh.
+- Your site has now been deployed.
 
 The live link to the GitHub Repository can be found [here](https://github.com/NaifatSelina/mysecondproject).
 
