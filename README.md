@@ -114,7 +114,9 @@ The Spider-Man Super Quiz is designed to be fun, interactive, inclusive and easy
 
 ## Contact Page
 ![contact page](assets/images/contact-quiz%20page.png)
-
+- The page seen above is a simple contact page for the user to complete that will sign them up for emails regarding the latest Spider-Man news.
+- The sign up form is very minimalistic and quick to complete as I understand that the main reason users have come on to the page is to play the quiz therefore making the sign up form short and easy to complete heightens the chance of users completing the form. Furthermore, simplicity enhances accesibility and for a quiz the caters to such a wide range of people from ages, to background etc. it is important that the contact page is not overcomplicated.
+- At the bottom of the sign up form the user can select the three icons present, the github, twitter and instagram icons each open up on a new tab and are black to match the input field text/placeholder text and text on the submit button.
 
 [Back to Contents](<#contents>)
 <!--future features-->
