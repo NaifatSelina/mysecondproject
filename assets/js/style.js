@@ -397,6 +397,7 @@ const audio = new Audio("assets/audio/superhero.ogg");
 
 document.getElementById('button-audio').onclick = function () {
     audio.play();
+    alert("refresh to stop audio, quiz will refresh!");
 };
 
 if (typeof audio.loop == 'boolean') {
@@ -407,4 +408,3 @@ if (typeof audio.loop == 'boolean') {
         this.play();
     }, false);
 }
-
