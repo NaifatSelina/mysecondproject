@@ -149,6 +149,9 @@ The code used to create the Spider-Man Super Quiz has under-gone testing and val
 ![Responsive Design Checker](assets/images/Responsive%20Design%20Checker.png)
 - Although I checked responsiveness of the webpage with ![Am I Responsive?](https://ui.dev/amiresponsive) and Lighthouse Testing, I also decided to ensure the webpage was responsive by further checking with Responsive Design Checker.
 
+### JsHint.
+![JsHint](assets/images/jshint.png)
+
 ### Manual Testing. 
 *go through each feature and say how I checked* 
 
