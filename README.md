@@ -2,10 +2,8 @@
 # Spider-Man Super Quiz!- Project Portfolio 2- HTML, CSS and JavaScript.
 <!--summary paragraph-->
 The Spider-Man Super Quiz is a fun and interactive quiz which has been independently built by myself. The aim of the quiz is for Marvel fans, in particular fans of Spider-Man, to test their knowledge on their favourite superhero- Spider-Man. The fun but professional and inviting structure of the quiz means it is perfect for Spider-Man fans of all ages and knowledge to get started on seeing how well their Spider-an knowledge really is.
-
 <!--link to live site-->
 You can view the live site here.- *link*
-
 <!--images of responsivity of quiz-->
 ![Spider-Man Super Quiz! Responsiveness](assets/images/new%20responsive.png)
 
@@ -36,15 +34,12 @@ You can view the live site here.- *link*
 * [Media](<#media>)
 * [Content](<#content>)
 * [**Acknowledgements**](<#acknowledgements>)
-
 <!--project aim-->
 ## Project Aim
 The main aim of my second project is to provide Spider-Man fans with a fun and interactive quiz that they can access whenever they want to test their Spider-Man knowledge. The quiz was made to be a quick and fun escape from the real world, into the Marvel universe for fans who need mind stimulating fun. I aim to use HTML and CSS to structure and style the quiz in a fun and inviting but still professional way whilst using JavaScript to add fun and interactivity to the quiz. 
-
 [Back to Contents](<#contents>)
 <!--user experience-->
 ## User Experience
-
 ### Design Wireframes
 For my second project I decided to carry out the initial designs on Figma, creating wireframes for desktop and mobile sized screens. The initial wireframes were created to help visualise the structure of the quiz however the ultimate structure and colour scheme of the quiz ended up being different to increase the accessibility and interactivity of the quiz. In the final design I decided to add the score board as a pop up screen and insert contact and help pages. This was to increase interactivity. The final layout of the quiz also has a sleeker and more professional feel and finish.
 
@@ -55,7 +50,6 @@ For my second project I decided to carry out the initial designs on Figma, creat
 <!--webpage structure-->
 ### Webpage Structure
 The Spider-Man Super Quiz takes on an easy to navigate structure. The quiz has been made to be accessible to users of all ages and therefore I decided to make the quiz page the default page to avoid over complicating and confusing the user. The quiz container contains the Main Title, stating that the quiz that is being played- the Spider-Man Super Quiz. Directly under, the user can see the Game Details which shows the player their score and what question they are on. Directly under follows the question and a choice of four answers, once the user has selected their answer they can click the next question button as continue. Once completing the quiz, a pop up appears on the users screen displaying their score details. Outside the game container, above the container three buttons can be found, a Contact button leading to a contact form page, an Audio button to control sound, and a help button leading to an instruction page. One each page that is not the default quiz page a button with a home icon can also be found to take the user back to the quiz. The bottom of the page contains a simplistic footer with a reference to the webpage creator.
-
 <!--reasons for design-->
 ## Reasons for Design
 
